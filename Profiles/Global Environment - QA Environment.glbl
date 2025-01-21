@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Global Environment - QA Environment</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qcu24s4901FyWDTwXGr6XA=='</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>This is Actual User</description>
+      <initValue>'standard_user'</initValue>
+      <name>Username1</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

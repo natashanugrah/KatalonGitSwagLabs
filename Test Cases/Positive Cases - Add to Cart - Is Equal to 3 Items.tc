@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Add to Cart - Is Equal to 3 Items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a072464a-33a4-4e2c-9a00-0a4a99c1e29f</testCaseGuid>
+</TestCaseEntity>

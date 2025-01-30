@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Direct to Facebook</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e103edfc-df2f-425d-b52c-53b0674aeaee</testCaseGuid>
+</TestCaseEntity>

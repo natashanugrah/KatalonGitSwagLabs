@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "A58C85CE7DA828815043FC2BB02CA740",
+  "keywordClasses": [
+    {
+      "name": "customKeywordCart.MyKeywords",
+      "keywordMethods": [
+        {
+          "name": "AddToCartAtoZ",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

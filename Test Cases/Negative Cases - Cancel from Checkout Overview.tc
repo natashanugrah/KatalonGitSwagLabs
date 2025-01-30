@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Cases - Cancel from Checkout Overview</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9290ff95-a7d8-44b6-b199-93cf17ce1665</testCaseGuid>
+</TestCaseEntity>

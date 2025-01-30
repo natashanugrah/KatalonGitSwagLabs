@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "[data-test\u003d\"error-button\"]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20250130_144936/Login to Swag Labs - Negative Cases/20250130_144937/Object Repository/Page_Swag Labs/path_SMART_LOCATOR.png"
+    }
+  ]
+}

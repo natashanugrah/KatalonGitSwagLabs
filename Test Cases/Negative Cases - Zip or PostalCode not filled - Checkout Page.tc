@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Cases - Zip or PostalCode not filled - Checkout Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5950965-0bdc-47ed-ac2d-ec2671e12d8d</testCaseGuid>
+</TestCaseEntity>

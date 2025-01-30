@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Back Home - Successfully Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a2dd6c6f-45a5-4bb3-9cd8-5b0674ea6bbb</testCaseGuid>
+</TestCaseEntity>

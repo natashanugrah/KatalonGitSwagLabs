@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login by Sixth Account - visual_user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f9313d47-bb53-4dfe-b952-b05eddb0d173</testCaseGuid>
+</TestCaseEntity>

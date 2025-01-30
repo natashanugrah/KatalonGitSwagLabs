@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Direct to Other Page - All Items</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0621f3f-0691-4ef9-9956-3e0e67fa9cd2</testCaseGuid>
+</TestCaseEntity>

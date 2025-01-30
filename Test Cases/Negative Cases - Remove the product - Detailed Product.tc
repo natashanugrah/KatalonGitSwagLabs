@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Cases - Remove the product - Detailed Product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6f1646d-c823-4041-af39-2b40705a850f</testCaseGuid>
+</TestCaseEntity>

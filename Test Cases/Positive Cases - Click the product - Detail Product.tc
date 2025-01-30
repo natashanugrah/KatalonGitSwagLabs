@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Click the product - Detail Product</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3769d9c9-ea3e-4606-95eb-dd729fb46b1f</testCaseGuid>
+</TestCaseEntity>

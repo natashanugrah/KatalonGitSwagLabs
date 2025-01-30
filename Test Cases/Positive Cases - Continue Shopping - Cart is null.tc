@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Continue Shopping - Cart is null</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>07b08ed7-947d-48d2-a957-250b38838b20</testCaseGuid>
+</TestCaseEntity>

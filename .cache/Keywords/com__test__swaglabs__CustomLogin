@@ -1,0 +1,57 @@
+{
+  "keywordFileContentHash": "8C22ED91CD306B153EF3DF6AE28567E5",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.CustomLogin",
+      "keywordMethods": [
+        {
+          "name": "printName",
+          "parameters": []
+        },
+        {
+          "name": "printUsername",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "WebLoginFirstAccount",
+          "parameters": []
+        },
+        {
+          "name": "WebLoginSecondAccount",
+          "parameters": []
+        },
+        {
+          "name": "WebLoginThirdAccount",
+          "parameters": []
+        },
+        {
+          "name": "WebLoginFourthAccount",
+          "parameters": []
+        },
+        {
+          "name": "WebLoginFifthAccount",
+          "parameters": []
+        },
+        {
+          "name": "WebLoginSixthAccount",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

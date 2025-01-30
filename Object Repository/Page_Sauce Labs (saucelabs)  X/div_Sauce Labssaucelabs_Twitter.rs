@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sauce Labssaucelabs_Twitter</name>
+   <tag></tag>
+   <elementGuidId>65a172bb-433a-483d-9365-9f6c9c18fa29</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-175oi2r.r-18u37iz.r-1w6e6rj.r-6gpygo.r-14gqq1x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;UserName&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>52b257d3-2e66-48ee-a4b7-f90653e80ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-175oi2r r-18u37iz r-1w6e6rj r-6gpygo r-14gqq1x</value>
+      <webElementGuid>ab52fe17-613c-4119-8e6f-a4977d135f85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>UserName</value>
+      <webElementGuid>7a14886f-b191-40c0-bb2c-5fce0506032d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sauce Labs@saucelabs</value>
+      <webElementGuid>a90fed0f-725f-4f5f-8f01-cf4ab487d675</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-root&quot;)/div[@class=&quot;css-175oi2r r-13awgt0 r-12vffkv&quot;]/div[@class=&quot;css-175oi2r r-13awgt0 r-12vffkv&quot;]/div[@class=&quot;css-175oi2r r-1f2l425 r-13qz1uu r-417010 r-18u37iz&quot;]/main[@class=&quot;css-175oi2r r-16y2uox r-1wbh5a2 r-1habvwh&quot;]/div[@class=&quot;css-175oi2r r-150rngu r-16y2uox r-1wbh5a2 r-1obr2lp&quot;]/div[@class=&quot;css-175oi2r r-aqfbo4 r-16y2uox&quot;]/div[@class=&quot;css-175oi2r r-1oszu61 r-1niwhzg r-18u37iz r-16y2uox r-2llsf r-13qz1uu r-1wtj0ep&quot;]/div[@class=&quot;css-175oi2r r-kemksi r-1kqtdi0 r-1ua6aaf r-th6na r-1phboty r-16y2uox r-184en5c r-1abdc3e r-1lg4w6u r-f8sm7e r-13qz1uu r-1ye8kvj&quot;]/div[@class=&quot;css-175oi2r&quot;]/div[@class=&quot;css-175oi2r&quot;]/div[@class=&quot;css-175oi2r r-16y2uox&quot;]/div[@class=&quot;css-175oi2r r-f8sm7e r-13qz1uu r-1ye8kvj&quot;]/div[@class=&quot;css-175oi2r&quot;]/div[@class=&quot;css-175oi2r r-3pj75a r-ttdzmv r-1ifxtd0&quot;]/div[@class=&quot;css-175oi2r r-18u37iz r-1w6e6rj r-6gpygo r-14gqq1x&quot;]</value>
+      <webElementGuid>a3807617-d8c2-4562-a254-e7823ad969f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div[2]</value>
+      <webElementGuid>b7048a7e-6fcd-4ce7-9d54-86977ac5bd8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Klik untuk Ikuti saucelabs'])[1]/following::div[1]</value>
+      <webElementGuid>643c88d0-2246-4955-98bb-d0422a92b28f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ikuti'])[1]/following::div[2]</value>
+      <webElementGuid>03f3b785-9583-48ad-b222-3e6db1bd5910</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div[2]</value>
+      <webElementGuid>502c2c67-077d-4908-9a0a-983fcf9b6c19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Sauce Labs@saucelabs' or . = 'Sauce Labs@saucelabs')]</value>
+      <webElementGuid>2c408b2f-8c12-4d67-8b42-8dea7cb70339</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

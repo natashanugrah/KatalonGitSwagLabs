@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Add to Cart by Sorting - Name (Z to A)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>08349af9-86b2-40d2-b3f9-2a486491214d</testCaseGuid>
+</TestCaseEntity>

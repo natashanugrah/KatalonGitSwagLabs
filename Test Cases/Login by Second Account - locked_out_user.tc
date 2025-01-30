@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login by Second Account - locked_out_user</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6cfb30b6-540d-4e15-8502-4c3b47c0d1df</testCaseGuid>
+</TestCaseEntity>

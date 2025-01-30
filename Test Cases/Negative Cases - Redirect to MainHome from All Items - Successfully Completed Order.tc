@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Cases - Redirect to MainHome from All Items - Successfully Completed Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3b816e5-1a5f-41fb-b739-3899489ee3e2</testCaseGuid>
+</TestCaseEntity>

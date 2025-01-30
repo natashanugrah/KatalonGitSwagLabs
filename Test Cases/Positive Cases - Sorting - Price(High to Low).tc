@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Sorting - Price(High to Low)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>86f52674-be9f-4ebc-9d16-d7ea06f97b38</testCaseGuid>
+</TestCaseEntity>

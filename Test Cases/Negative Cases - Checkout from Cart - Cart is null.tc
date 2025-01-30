@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Cases - Checkout from Cart - Cart is null</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8333eb9d-003f-4bc7-b3be-3883eb974fc3</testCaseGuid>
+</TestCaseEntity>

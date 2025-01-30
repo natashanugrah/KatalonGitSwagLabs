@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_LinkedIn</name>
+   <tag></tag>
+   <elementGuidId>c840e358-b581-42d6-8c08-a073dc8a4d7e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='base-contextual-sign-in-modal-modal-header']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#base-contextual-sign-in-modal-modal-header</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Login untuk melihat orang yang sudah Anda kenal di Sauce Labs&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>898e75ce-5cbb-4137-9a3c-6a5340e37696</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>contextual-sign-in-modal__context-screen-title font-sans text-xl text-color-text my-2 mx-4 text-center</value>
+      <webElementGuid>6ec3793a-fa4c-4e42-8756-e76f9f160b9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>base-contextual-sign-in-modal-modal-header</value>
+      <webElementGuid>acec4a12-88f4-42cb-8620-1dfeed87cac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+              Login untuk melihat orang yang sudah Anda kenal di Sauce Labs
+            </value>
+      <webElementGuid>60f951d4-c3eb-40af-b9c1-496a2c9427af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;base-contextual-sign-in-modal-modal-header&quot;)</value>
+      <webElementGuid>fdb2d7cf-aff1-40c6-8d4e-c971923efd3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='base-contextual-sign-in-modal-modal-header']</value>
+      <webElementGuid>4853b81a-848d-4000-a6f0-5f28691b4886</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='base-contextual-sign-in-modal']/div/section/div/div/h2</value>
+      <webElementGuid>a29d9e47-9e24-4427-86f7-0814dcab2dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Cookie'])[2]/following::h2[1]</value>
+      <webElementGuid>0e19193a-3296-44c4-ad7f-7585c5e90700</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kebijakan Privasi'])[2]/following::h2[1]</value>
+      <webElementGuid>5c5d6622-29ce-4dfa-85e7-1cbbe5ddfda5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Selamat datang kembali'])[1]/preceding::h2[1]</value>
+      <webElementGuid>ace839eb-82aa-4650-9854-b0e0a0f69b62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login untuk melihat orang yang sudah Anda kenal di Sauce Labs']/parent::*</value>
+      <webElementGuid>de17f0e8-ba70-4597-ac44-9f4edbe334aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/h2</value>
+      <webElementGuid>3bb78ca1-eece-4662-822c-1610b1f5a7f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'base-contextual-sign-in-modal-modal-header' and (text() = '
+              Login untuk melihat orang yang sudah Anda kenal di Sauce Labs
+            ' or . = '
+              Login untuk melihat orang yang sudah Anda kenal di Sauce Labs
+            ')]</value>
+      <webElementGuid>3c4b264e-8da6-4dbd-8278-5e55b422785d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

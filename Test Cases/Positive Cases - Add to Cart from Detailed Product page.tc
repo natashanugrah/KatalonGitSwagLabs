@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Add to Cart from Detailed Product page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2348d8d-db96-485a-9d62-fa53c90ee2b2</testCaseGuid>
+</TestCaseEntity>

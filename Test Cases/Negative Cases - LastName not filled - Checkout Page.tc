@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Negative Cases - LastName not filled - Checkout Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2d2d60c-188a-408e-9fee-dfdbfd51d9cb</testCaseGuid>
+</TestCaseEntity>

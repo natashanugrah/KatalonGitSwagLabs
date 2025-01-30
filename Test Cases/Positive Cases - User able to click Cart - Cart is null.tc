@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - User able to click Cart - Cart is null</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b5d0a75-630e-473d-9f7f-2ec67c6511f0</testCaseGuid>
+</TestCaseEntity>

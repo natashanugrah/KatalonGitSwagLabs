@@ -15,7 +15,7 @@
       <guid>650a0e35-8a07-46dd-968a-ceb000860bdf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Negativce Cases - Failed Credential to Login SwagLabs</testCaseId>
+      <testCaseId>Test Cases/Negative Cases - Failed Credential to Login SwagLabs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Positive Cases - Direct to Other Page - SauceDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3832176-e6ff-4a8f-b10b-5caf2c7ba479</testCaseGuid>
+</TestCaseEntity>

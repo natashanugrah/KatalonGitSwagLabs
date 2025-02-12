@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.saucedemo.com/')
+
+WebUI.setText(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
+
+WebUI.setEncryptedText(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
+
+WebUI.click(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button'))
+
+WebUI.click(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link'))
+
+WebUI.click(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart'))
+
+not_run: WebUI.click(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products'))
+
+WebUI.click(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link'))
+
+WebUI.click(findTestObject('Page_Swag Labs/button_Remove_backpack'))
+
+WebUI.closeBrowser()
+

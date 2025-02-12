@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login by Different Account" time="496.609" tests="5" failures="1" errors="0">
+   <testsuite name="Login by Different Account" tests="5" failures="1" errors="0" time="496.609" skipped="0" timestamp="31-01-2025T21:45:43" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Login by Different Account">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250131_214533\\Login by Different Account\\20250131_214533"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250131_214533\\Login by Different Account\\20250131_214533\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;133.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;e8ab069b-53ce-4859-bbb8-59595deb7de6&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;133.0.6847.2 (7e95e23d2d1f87886163822aa701370c1187bfa1-refs/branch-heads/6847@{#6})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir5464_1631854299&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;e8ab069b-53ce-4859-bbb8-59595deb7de6&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;36c3f013-4581-440b-b9e2-946b15b32646&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;e8ab069b-53ce-4859-bbb8-59595deb7de6&quot;&#xa;  },&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;36c3f013-4581-440b-b9e2-946b15b32646&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;e8ab069b-53ce-4859-bbb8-59595deb7de6&quot;,&#xa;    &quot;group&quot;: &quot;9ab6bac5-1cc1-4a31-be02-e9541dffa2d0&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;fda32340-531c-49aa-a0b7-40d478ba5457&quot;,&#xa;      &quot;organizationId&quot;: &quot;1906073&quot;&#xa;    },&#xa;    &quot;organizationId&quot;: &quot;1906073&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;tenant&quot;: &quot;TestOps&quot;,&#xa;    &quot;tunnelMetadataId&quot;: &quot;47bf9c75-9831-4539-a455-bf21b2504b03&quot;,&#xa;    &quot;userId&quot;: 1648280,&#xa;    &quot;username&quot;: &quot;innocent.beaver.duja@instantletter.net&quot;,&#xa;    &quot;usingTunnel&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+         <property name="browser" value="Chrome 133.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="b1fe3d5b0dd639ce1ac37f0244976399"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login by Fifth Account - error_user" time="39.997" classname="Test Cases/Login by Fifth Account - error_user" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login by Fifth Account - error_user FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)&#xa;	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Login by Fifth Account - error_user.run(Login by Fifth Account - error_user:24)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1738334733685.run(TempTestSuite1738334733685.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection&#xa;from disconnected: Unable to receive message from renderer&#xa;  (Session info: chrome=133.0.6847.2)&#xa;Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'&#xa;System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d&#xa;*** Element info: {Using=xpath, value=//input[@id='user-name']}&#xa;	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)&#xa;	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1033)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:924)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:897)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:743)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:727)&#xa;	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1413)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 28 more&#xa;"/>
+         <system-out><![CDATA[31-01-2025T21:48:08 - [TEST_CASE][FAILED] - Test Cases/Login by Fifth Account - error_user: Test Cases/Login by Fifth Account - error_user FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login by Fifth Account - error_user.run(Login by Fifth Account - error_user:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738334733685.run(TempTestSuite1738334733685.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6847.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d
+*** Element info: {Using=xpath, value=//input[@id='user-name']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1033)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:924)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:743)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:727)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1413)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 28 more
+
+
+31-01-2025T21:48:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2025T21:48:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2025T21:48:08 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2025T21:48:08 - [MESSAGE][INFO] - User set preference: ['browserVersion', '133']
+
+31-01-2025T21:48:08 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2025T21:48:08 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=true}']
+
+31-01-2025T21:48:08 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2025T21:48:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T21:48:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2025T21:48:39 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:48:41 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:48:41 - [TEST_STEP][FAILED] - com.test.swaglabs.CustomLogin.WebLoginFifthAccount(): Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+31-01-2025T21:48:44 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'. Try using Self-healing.
+
+31-01-2025T21:48:45 - [MESSAGE][WARNING] - [SELF-HEALING] invalid session id
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d
+*** Element info: {Using=xpath, value=//input[@id='user-name']}
+
+31-01-2025T21:48:47 - [MESSAGE][WARNING] - [SELF-HEALING] invalid session id
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d
+*** Element info: {Using=xpath, value=//*[@placeholder = 'Username' and @type = 'text' and @id = 'user-name' and @name = 'user-name']}
+
+31-01-2025T21:48:47 - [MESSAGE][WARNING] - [SELF-HEALING] invalid session id
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d
+*** Element info: {Using=css selector, value=#user-name}
+
+31-01-2025T21:48:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+31-01-2025T21:48:48 - [MESSAGE][FAILED] - Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login by Fifth Account - error_user.run(Login by Fifth Account - error_user:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738334733685.run(TempTestSuite1738334733685.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6847.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d
+*** Element info: {Using=xpath, value=//input[@id='user-name']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1033)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:924)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:743)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:727)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1413)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1738220888053.run(Script1738220888053.groovy:24)
+	... 18 more
+)
+
+31-01-2025T21:48:48 - [MESSAGE][FAILED] - Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name']]></system-out>
+         <system-err><![CDATA[31-01-2025T21:48:08 - [TEST_CASE][FAILED] - Test Cases/Login by Fifth Account - error_user: Test Cases/Login by Fifth Account - error_user FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login by Fifth Account - error_user.run(Login by Fifth Account - error_user:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738334733685.run(TempTestSuite1738334733685.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6847.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8...}, katalon:options: {executionId: f6fc9d29-8df3-408d-924b-ac1..., executionSessionId: 6d396290-7b06-4eac-9371-6c8..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 6d396290-7b06-4eac-9371-6c8..., kt:rid: 6d396290-7b06-4eac-9371-6c8..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18f3a0ff9da4bdb4b7a79cbb0d5dd84d
+*** Element info: {Using=xpath, value=//input[@id='user-name']}
+	at jdk.internal.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1033)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:924)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:743)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:727)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1413)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 28 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Fourth Account - performance_glitch_user" time="54.132" classname="Test Cases/Login by Fourth Account - performance_glitch_user" status="PASSED">
+         <system-out><![CDATA[31-01-2025T21:50:44 - [TEST_CASE][PASSED] - Test Cases/Login by Fourth Account - performance_glitch_user: Test Cases/Login by Fourth Account - performance_glitch_user
+
+31-01-2025T21:50:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2025T21:50:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2025T21:50:45 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2025T21:50:45 - [MESSAGE][INFO] - User set preference: ['browserVersion', '133']
+
+31-01-2025T21:50:45 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2025T21:50:45 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=true}']
+
+31-01-2025T21:50:45 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2025T21:50:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T21:51:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2025T21:51:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:51:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:51:24 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFourthAccount(): com.test.swaglabs.CustomLogin.WebLoginFourthAccount is PASSED
+
+31-01-2025T21:51:27 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+31-01-2025T21:51:30 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+31-01-2025T21:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+31-01-2025T21:51:36 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFourthAccount is PASSED
+
+31-01-2025T21:51:36 - [TEST_STEP][PASSED] - verifyTextPresent("Add to cart", false): Text 'Add to cart' is present on page 
+
+31-01-2025T21:51:37 - [MESSAGE][PASSED] - Text 'Add to cart' is present on page 
+
+31-01-2025T21:51:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2025T21:51:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Second Account - locked_out_user" time="48.179" classname="Test Cases/Login by Second Account - locked_out_user" status="PASSED">
+         <system-out><![CDATA[31-01-2025T21:51:38 - [TEST_CASE][PASSED] - Test Cases/Login by Second Account - locked_out_user: Test Cases/Login by Second Account - locked_out_user
+
+31-01-2025T21:51:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2025T21:51:38 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2025T21:51:38 - [MESSAGE][INFO] - User set preference: ['browserVersion', '133']
+
+31-01-2025T21:51:38 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2025T21:51:38 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=true}']
+
+31-01-2025T21:51:38 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2025T21:51:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T21:52:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2025T21:52:15 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:52:18 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:52:18 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSecondAccount(): com.test.swaglabs.CustomLogin.WebLoginSecondAccount is PASSED
+
+31-01-2025T21:52:21 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+31-01-2025T21:52:23 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+31-01-2025T21:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+31-01-2025T21:52:24 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSecondAccount is PASSED
+
+31-01-2025T21:52:24 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Sorry, this user has been locked out.", false): Text 'Epic sadface: Sorry, this user has been locked out.' is present on page 
+
+31-01-2025T21:52:25 - [MESSAGE][PASSED] - Text 'Epic sadface: Sorry, this user has been locked out.' is present on page 
+
+31-01-2025T21:52:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2025T21:52:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Sixth Account - visual_user" time="47.598" classname="Test Cases/Login by Sixth Account - visual_user" status="PASSED">
+         <system-out><![CDATA[31-01-2025T21:52:27 - [TEST_CASE][PASSED] - Test Cases/Login by Sixth Account - visual_user: Test Cases/Login by Sixth Account - visual_user
+
+31-01-2025T21:52:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2025T21:52:27 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2025T21:52:27 - [MESSAGE][INFO] - User set preference: ['browserVersion', '133']
+
+31-01-2025T21:52:27 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2025T21:52:27 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=true}']
+
+31-01-2025T21:52:27 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2025T21:52:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T21:53:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2025T21:53:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:53:06 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:53:06 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSixthAccount(): com.test.swaglabs.CustomLogin.WebLoginSixthAccount is PASSED
+
+31-01-2025T21:53:08 - [MESSAGE][PASSED] - Text 'visual_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+31-01-2025T21:53:11 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+31-01-2025T21:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+31-01-2025T21:53:12 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSixthAccount is PASSED
+
+31-01-2025T21:53:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), 10): Object 'Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+31-01-2025T21:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+31-01-2025T21:53:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2025T21:53:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Third Account - problem_user" time="45.413" classname="Test Cases/Login by Third Account - problem_user" status="PASSED">
+         <system-out><![CDATA[31-01-2025T21:53:14 - [TEST_CASE][PASSED] - Test Cases/Login by Third Account - problem_user: Test Cases/Login by Third Account - problem_user
+
+31-01-2025T21:53:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2025T21:53:14 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+31-01-2025T21:53:14 - [MESSAGE][INFO] - User set preference: ['browserVersion', '133']
+
+31-01-2025T21:53:14 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+31-01-2025T21:53:14 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=true}']
+
+31-01-2025T21:53:14 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+31-01-2025T21:53:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2025T21:53:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2025T21:53:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:53:51 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-01-2025T21:53:51 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginThirdAccount(): com.test.swaglabs.CustomLogin.WebLoginThirdAccount is PASSED
+
+31-01-2025T21:53:55 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+31-01-2025T21:53:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+31-01-2025T21:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+31-01-2025T21:53:57 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginThirdAccount is PASSED
+
+31-01-2025T21:53:57 - [TEST_STEP][PASSED] - verifyTextPresent("Add to cart", false): Text 'Add to cart' is present on page 
+
+31-01-2025T21:53:58 - [MESSAGE][PASSED] - Text 'Add to cart' is present on page 
+
+31-01-2025T21:53:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2025T21:54:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2025T21:45:43 - [TEST_SUITE][FAILED] - Login by Different Account: Test Cases/Login by Fifth Account - error_user FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login by Fifth Account - error_user.run(Login by Fifth Account - error_user:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738334733685.run(TempTestSuite1738334733685.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6847.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: 2aef68cf-3bf6-49ac-9508-595..., executionSessionId: 8e9303ed-b899-4a23-9706-9eb...}, katalon:options: {executionId: 2aef68cf-3bf6-49ac-9508-595..., executionSessionId: 8e9303ed-b899-4a23-9706-9eb..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 8e9303ed-b899-4a23-9706-9eb..., kt:rid: 8e9303ed-b899-4a23-9706-9eb..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42b521d68d5b4bdf4484d9a77e20630e
+*** Element info: {Using=xpath, value=//input[@id='user-name']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1033)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:924)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:743)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:727)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1413)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 25 more]]></system-out>
+      <system-err><![CDATA[31-01-2025T21:45:43 - [TEST_SUITE][FAILED] - Login by Different Account: Test Cases/Login by Fifth Account - error_user FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'error_user' of object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1019)
+	at com.test.swaglabs.CustomLogin.WebLoginFifthAccount(CustomLogin.groovy:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Login by Fifth Account - error_user.run(Login by Fifth Account - error_user:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:150)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738334733685.run(TempTestSuite1738334733685.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchSessionException: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6847.2)
+Build info: version: '3.141.59', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-5GQHVTHK', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6847.2, chrome: {chromedriverVersion: 133.0.6847.2 (7e95e23d2d1f8..., userDataDir: C:\Program Files\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9225}, javascriptEnabled: true, katalon:caps: {executionId: 2aef68cf-3bf6-49ac-9508-595..., executionSessionId: 8e9303ed-b899-4a23-9706-9eb...}, katalon:options: {executionId: 2aef68cf-3bf6-49ac-9508-595..., executionSessionId: 8e9303ed-b899-4a23-9706-9eb..., group: 9ab6bac5-1cc1-4a31-be02-e95..., metadata: {accountUuid: fda32340-531c-49aa-a0b7-40d..., organizationId: 1906073, usingTunnel: false}, organizationId: 1906073, runFromTestCloud: true, tenant: TestOps, tunnelMetadataId: 47bf9c75-9831-4539-a455-bf2..., userId: 1648280, username: innocent.beaver.duja@instan..., usingTunnel: true}, kt:requestId: 8e9303ed-b899-4a23-9706-9eb..., kt:rid: 8e9303ed-b899-4a23-9706-9eb..., networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 42b521d68d5b4bdf4484d9a77e20630e
+*** Element info: {Using=xpath, value=//input[@id='user-name']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1033)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:924)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:906)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:897)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:743)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:727)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1413)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 25 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "92EF626D9A11E8585B840BD4B7D881E5",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.removeItem.removeItem",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

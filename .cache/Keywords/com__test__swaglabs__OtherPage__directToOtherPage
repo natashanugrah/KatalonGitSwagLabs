@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7C70CDA2D0EBB33A1460BF29B7DCCEAA",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.OtherPage.directToOtherPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

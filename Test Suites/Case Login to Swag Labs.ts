@@ -22,7 +22,7 @@
             <groupName>Web Desktop</groupName>
             <profileName>Global Environment - QA Environment</profileName>
             <requireConfigurationData>false</requireConfigurationData>
-            <runConfigurationId>Edge</runConfigurationId>
+            <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Login to Swag Labs - Positive Cases</testSuiteEntity>

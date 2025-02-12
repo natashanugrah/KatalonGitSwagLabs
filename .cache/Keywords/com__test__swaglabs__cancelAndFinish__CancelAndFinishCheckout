@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "57D9D90F22930EF480076598780080F9",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.cancelAndFinish.CancelAndFinishCheckout",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

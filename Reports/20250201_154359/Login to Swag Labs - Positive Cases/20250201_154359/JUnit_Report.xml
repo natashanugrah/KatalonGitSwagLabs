@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login to Swag Labs - Positive Cases" time="62.066" tests="2" failures="0" errors="0">
+   <testsuite name="Login to Swag Labs - Positive Cases" tests="2" failures="0" errors="0" time="62.066" skipped="0" timestamp="01-02-2025T15:44:06" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Login to Swag Labs - Positive Cases">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250201_154359\\Login to Swag Labs - Positive Cases\\20250201_154359"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250201_154359\\Login to Swag Labs - Positive Cases\\20250201_154359\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;132.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;9bcbe597-d90f-446b-8a34-49d1eb958d31&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;132.0.6834.6 (927817eddd37beaece8f59ae3e4c932602252b04-refs/branch-heads/6834@{#17})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir2740_2146171435&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;9bcbe597-d90f-446b-8a34-49d1eb958d31&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;cc08e098-1708-4687-b64f-d7050fe41873&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;9bcbe597-d90f-446b-8a34-49d1eb958d31&quot;&#xa;  },&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;cc08e098-1708-4687-b64f-d7050fe41873&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;9bcbe597-d90f-446b-8a34-49d1eb958d31&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;fda32340-531c-49aa-a0b7-40d478ba5457&quot;,&#xa;      &quot;organizationId&quot;: &quot;1906073&quot;&#xa;    },&#xa;    &quot;organizationId&quot;: &quot;1906073&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;userId&quot;: 1648280,&#xa;    &quot;username&quot;: &quot;innocent.beaver.duja@instantletter.net&quot;,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="9fe15bbafaf92867f0bea6735abe5aa7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive Cases - Login with first account - standard_user" time="31.558" classname="Test Cases/Positive Cases - Login with first account - standard_user" status="PASSED">
+         <system-out><![CDATA[01-02-2025T15:44:06 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Login with first account - standard_user: Test Cases/Positive Cases - Login with first account - standard_user
+
+01-02-2025T15:44:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T15:44:07 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+01-02-2025T15:44:07 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+01-02-2025T15:44:07 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+01-02-2025T15:44:07 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=false}']
+
+01-02-2025T15:44:07 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+01-02-2025T15:44:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T15:44:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T15:44:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T15:44:28 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T15:44:28 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFirstAccount(): com.test.swaglabs.CustomLogin.WebLoginFirstAccount is PASSED
+
+01-02-2025T15:44:32 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T15:44:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T15:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T15:44:35 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFirstAccount is PASSED
+
+01-02-2025T15:44:35 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): NOT_RUN: setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+
+01-02-2025T15:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), "standard_user")
+
+01-02-2025T15:44:35 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): NOT_RUN: setEncryptedText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+
+01-02-2025T15:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA==")
+
+01-02-2025T15:44:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): NOT_RUN: click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button"))
+
+01-02-2025T15:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button"))
+
+01-02-2025T15:44:35 - [TEST_STEP][PASSED] - verifyTextPresent("Products", false): Text 'Products' is present on page 
+
+01-02-2025T15:44:37 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+01-02-2025T15:44:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T15:44:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Login SwagLabs" time="30.294" classname="Test Cases/Positive Cases - Login SwagLabs" status="PASSED">
+         <system-out><![CDATA[01-02-2025T15:44:38 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Login SwagLabs: Test Cases/Positive Cases - Login SwagLabs
+
+01-02-2025T15:44:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T15:44:38 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+01-02-2025T15:44:38 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+01-02-2025T15:44:38 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+01-02-2025T15:44:38 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=false}']
+
+01-02-2025T15:44:38 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+01-02-2025T15:44:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T15:44:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T15:44:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T15:44:59 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T15:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T15:45:02 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T15:45:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T15:45:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T15:45:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T15:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T15:45:06 - [TEST_STEP][PASSED] - verifyTextPresent("Products", false): Text 'Products' is present on page 
+
+01-02-2025T15:45:07 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+01-02-2025T15:45:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T15:45:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2025T15:44:06 - [TEST_SUITE][PASSED] - Login to Swag Labs - Positive Cases: Test Cases/Positive Cases - Login SwagLabs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

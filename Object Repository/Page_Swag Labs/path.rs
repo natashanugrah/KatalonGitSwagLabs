@@ -6,15 +6,14 @@
    <elementGuidId>a3364e1f-e576-43e8-a4e2-4976e39b1c7a</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>svg.svg-inline--fa.fa-times.fa-w-11 > path</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>

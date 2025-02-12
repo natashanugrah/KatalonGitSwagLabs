@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login to Swag Labs - Negative Cases,TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:50:48,01-02-2025 12:54:03,"3m - 14,410s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Failed Credential to Login SwagLabs,TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:50:48,01-02-2025 12:51:51,"1m - 2,170s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:50:49,01-02-2025 12:51:11,"22,183s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:11,01-02-2025 12:51:12,"0,819s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""nitsha"")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:12,01-02-2025 12:51:15,"3,378s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:15,01-02-2025 12:51:17,"1,896s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:17,01-02-2025 12:51:19,"1,683s",PASSED
+"verifyTextPresent(""Epic sadface: Username and password do not match any user in this service"", false)",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:19,01-02-2025 12:51:50,"30,987s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:50,01-02-2025 12:51:51,"1,036s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled,TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:51,01-02-2025 12:52:57,"1m - 6,931s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:51:51,01-02-2025 12:52:12,"21,368s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:12,01-02-2025 12:52:13,"0,735s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:13,01-02-2025 12:52:16,"3,371s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:16,01-02-2025 12:52:18,"1,561s",PASSED
+"verifyTextPresent(""Epic sadface: Password is required"", false)",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:18,01-02-2025 12:52:19,"1,488s",PASSED
+"click(findTestObject(""Page_Swag Labs/path""))",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:19,01-02-2025 12:52:56,"37,348s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:56,01-02-2025 12:52:57,"1,003s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled,TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:58,01-02-2025 12:54:03,"1m - 5,137s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:52:58,01-02-2025 12:53:19,"21,656s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:53:19,01-02-2025 12:53:20,"0,691s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:53:20,01-02-2025 12:53:23,"3,418s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:53:23,01-02-2025 12:53:25,"1,593s",PASSED
+"verifyTextPresent(""Epic sadface: Username is required"", false)",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:53:25,01-02-2025 12:53:29,"4,138s",PASSED
+"click(findTestObject(""Page_Swag Labs/path""))",TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:53:29,01-02-2025 12:54:02,"32,648s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 132.0.0.0,,,01-02-2025 12:54:02,01-02-2025 12:54:03,"0,897s",PASSED

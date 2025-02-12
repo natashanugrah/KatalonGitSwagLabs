@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login to Swag Labs - Positive Cases" time="13.219" tests="2" failures="0" errors="0">
+   <testsuite name="Login to Swag Labs - Positive Cases" tests="2" failures="0" errors="0" time="13.219" skipped="0" timestamp="30-01-2025T14:50:51" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Login to Swag Labs - Positive Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250130_144936\\Login to Swag Labs - Positive Cases\\20250130_144939"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250130_144936\\Login to Swag Labs - Positive Cases\\20250130_144939\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="4fcd44eb966e535c02c78199a9b3b05c"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive Cases - Login with first account - standard_user" time="7.398" classname="Test Cases/Positive Cases - Login with first account - standard_user" status="PASSED">
+         <system-out><![CDATA[30-01-2025T14:50:51 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Login with first account - standard_user: Test Cases/Positive Cases - Login with first account - standard_user
+
+30-01-2025T14:50:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T14:50:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T14:50:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T14:50:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T14:50:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:50:55 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:50:55 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), ""): Text '' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:50:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:50:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), ""): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:50:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:50:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:50:58 - [TEST_STEP][PASSED] - verifyTextPresent("", false): Text '' is present on page 
+
+30-01-2025T14:50:58 - [MESSAGE][PASSED] - Text '' is present on page 
+
+30-01-2025T14:50:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T14:50:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Login SwagLabs" time="5.583" classname="Test Cases/Positive Cases - Login SwagLabs" status="PASSED">
+         <system-out><![CDATA[30-01-2025T14:50:59 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Login SwagLabs: Test Cases/Positive Cases - Login SwagLabs
+
+30-01-2025T14:50:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T14:50:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T14:50:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T14:51:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T14:51:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:51:01 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:51:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:51:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:51:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:51:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:51:04 - [TEST_STEP][PASSED] - verifyTextPresent("Products", false): Text 'Products' is present on page 
+
+30-01-2025T14:51:04 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+30-01-2025T14:51:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T14:51:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2025T14:50:51 - [TEST_SUITE][PASSED] - Login to Swag Labs - Positive Cases: Test Cases/Positive Cases - Login SwagLabs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

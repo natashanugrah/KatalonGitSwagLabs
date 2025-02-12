@@ -17,3 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Test Cases/StudioAssist/Create the purchase'), [('username') : GlobalVariable.Username1
+        , ('password') : GlobalVariable.Password2])
+
+CustomKeywords.'com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement'('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Open Menu')
+
+CustomKeywords.'com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement'('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/a_All Items')
+
+WebUI.verifyTextPresent('Products', false)
+
+WebUI.closeBrowser()
+

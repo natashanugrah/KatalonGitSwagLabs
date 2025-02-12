@@ -14,4 +14,14 @@
       <initValue>'standard_user'</initValue>
       <name>Username1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.saucedemo.com/'</initValue>
+      <name>SiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'secret_sauce'</initValue>
+      <name>Password2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

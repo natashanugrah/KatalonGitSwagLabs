@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login to Swag Labs - Positive Cases,Chrome 131.0.0.0,,,28-01-2025 15:33:42,28-01-2025 15:33:55,"12,824s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Login with first account - standard_user,Chrome 131.0.0.0,,,28-01-2025 15:33:42,28-01-2025 15:33:49,"6,533s",PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,28-01-2025 15:33:43,28-01-2025 15:33:44,"1,674s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 131.0.0.0,,,28-01-2025 15:33:44,28-01-2025 15:33:45,"1,108s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), """")",Chrome 131.0.0.0,,,28-01-2025 15:33:45,28-01-2025 15:33:48,"2,136s",PASSED
+"setEncryptedText(findTestObject(""Page_Swag Labs/input_Swag Labs_password""), """")",Chrome 131.0.0.0,,,28-01-2025 15:33:48,28-01-2025 15:33:48,"0,327s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 131.0.0.0,,,28-01-2025 15:33:48,28-01-2025 15:33:48,"0,352s",PASSED
+"verifyTextPresent("""", false)",Chrome 131.0.0.0,,,28-01-2025 15:33:48,28-01-2025 15:33:49,"0,519s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,28-01-2025 15:33:49,28-01-2025 15:33:49,"0,196s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Login SwagLabs,Chrome 131.0.0.0,,,28-01-2025 15:33:49,28-01-2025 15:33:55,"6,144s",PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,28-01-2025 15:33:49,28-01-2025 15:33:50,"0,844s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 131.0.0.0,,,28-01-2025 15:33:50,28-01-2025 15:33:52,"1,790s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 131.0.0.0,,,28-01-2025 15:33:52,28-01-2025 15:33:54,"2,068s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 131.0.0.0,,,28-01-2025 15:33:54,28-01-2025 15:33:54,"0,343s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 131.0.0.0,,,28-01-2025 15:33:54,28-01-2025 15:33:54,"0,343s",PASSED
+"verifyTextPresent(""Products"", false)",Chrome 131.0.0.0,,,28-01-2025 15:33:54,28-01-2025 15:33:55,"0,507s",PASSED
+closeBrowser(),Chrome 131.0.0.0,,,28-01-2025 15:33:55,28-01-2025 15:33:55,"0,165s",PASSED

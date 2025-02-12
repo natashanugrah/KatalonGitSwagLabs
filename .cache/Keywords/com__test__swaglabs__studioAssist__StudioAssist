@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "EEA2C2B372E30A157CBFF617369AA837",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.studioAssist.StudioAssist",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

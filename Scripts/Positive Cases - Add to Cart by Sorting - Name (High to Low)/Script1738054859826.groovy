@@ -17,3 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * - Find and call the 'Test Cases/StudioAssist/Login by StudioAssist' with these credential: 'GlobalVariable.Username1' as usernamd and 'GlobalVariable.Password2' as password
+ * - Click this element 'Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)'
+ * - Then, click this element: 'Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/a_Price (high to low)_item_5_img_link'
+ * - Click the button: 'Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Add to cart_jacket'
+ * - Click this button 'Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Back Home'
+ * - Close Browser
+ */
+// Call the test case for login with specified credentials
+WebUI.callTestCase(findTestCase('Test Cases/StudioAssist/Login by StudioAssist'), 
+    [('username') : GlobalVariable.Username1, 
+     ('password') : GlobalVariable.Password2]) 
+
+// Click on the sorting dropdown element
+CustomKeywords.'com.test.swaglabs.sorting.Sorting.clickPriceHighToLow'()
+WebUI.waitForAlert(3)
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)'))
+
+
+// Click on the price sorting option
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/a_Price (high to low)_item_5_img_link'))
+
+// Click the 'Add to cart' button for the selected item
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Add to cart_jacket'))
+
+// Click the 'Back Home' button
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Back Home'))
+
+// Close the browser
+WebUI.closeBrowser()
+

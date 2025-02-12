@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "FCB48DBC2421F08767FEADE4D401FE4C",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.resetstate.ResetAppState",
+      "keywordMethods": [
+        {
+          "name": "resetStateAsUsual",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

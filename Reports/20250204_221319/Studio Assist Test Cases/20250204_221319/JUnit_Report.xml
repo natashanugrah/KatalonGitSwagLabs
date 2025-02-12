@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Studio Assist Test Cases" time="57.387" tests="5" failures="0" errors="0">
+   <testsuite name="Studio Assist Test Cases" tests="5" failures="0" errors="0" time="57.387" skipped="0" timestamp="04-02-2025T22:13:26" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Studio Assist Test Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250204_221319\\Studio Assist Test Cases\\20250204_221319"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250204_221319\\Studio Assist Test Cases\\20250204_221319\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="484454e93ed738471e5f51aa5cadee70"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/StudioAssist/Add to Cart from Detailed Product" time="8.639" classname="Test Cases/StudioAssist/Add to Cart from Detailed Product" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:13:26 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Add to Cart from Detailed Product: Test Cases/StudioAssist/Add to Cart from Detailed Product
+
+04-02-2025T22:13:27 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:13:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:13:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:13:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:13:32 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:13:32 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:13:32 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:13:32 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:13:33 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:13:33 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:13:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudioAssist/Checkout Information" time="11.625" classname="Test Cases/StudioAssist/Checkout Information" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:13:35 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Checkout Information: Test Cases/StudioAssist/Checkout Information
+
+04-02-2025T22:13:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StudioAssist/Add to Cart from Detailed Product"), ["username":Username1, "password":Password2]): Call Test Case 'Test Cases/StudioAssist/Add to Cart from Detailed Product' successfully
+
+04-02-2025T22:13:35 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Add to Cart from Detailed Product: Test Cases/StudioAssist/Add to Cart from Detailed Product
+
+04-02-2025T22:13:35 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:13:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-02-2025T22:13:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:13:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:13:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:13:40 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:13:42 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:13:42 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:13:43 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:13:43 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:13:43 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:13:43 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:13:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:13:45 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:13:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StudioAssist/Add to Cart from Detailed Product' successfully
+
+04-02-2025T22:13:45 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1' is clicked on
+
+04-02-2025T22:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1' is clicked on
+
+04-02-2025T22:13:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout"), 5): Scroll to object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' successfully
+
+04-02-2025T22:13:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' successfully
+
+04-02-2025T22:13:46 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' is clicked on
+
+04-02-2025T22:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' is clicked on
+
+04-02-2025T22:13:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information"), 15): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information' is present
+
+04-02-2025T22:13:47 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudioAssist/Create the purchase" time="17.158" classname="Test Cases/StudioAssist/Create the purchase" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:13:47 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Create the purchase: Test Cases/StudioAssist/Create the purchase
+
+04-02-2025T22:13:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StudioAssist/Filled Checkout Information"), ["username":Username1, "password":Password2]): Call Test Case 'Test Cases/StudioAssist/Filled Checkout Information' successfully
+
+04-02-2025T22:13:47 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Filled Checkout Information: Test Cases/StudioAssist/Filled Checkout Information
+
+04-02-2025T22:13:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StudioAssist/Checkout Information"), ["username":Username1, "password":Password2]): Call Test Case 'Test Cases/StudioAssist/Checkout Information' successfully
+
+04-02-2025T22:13:47 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Checkout Information: Test Cases/StudioAssist/Checkout Information
+
+04-02-2025T22:13:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StudioAssist/Add to Cart from Detailed Product"), ["username":Username1, "password":Password2]): Call Test Case 'Test Cases/StudioAssist/Add to Cart from Detailed Product' successfully
+
+04-02-2025T22:13:47 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Add to Cart from Detailed Product: Test Cases/StudioAssist/Add to Cart from Detailed Product
+
+04-02-2025T22:13:47 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:13:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-02-2025T22:13:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:13:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:13:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:13:54 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:13:55 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:13:55 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:13:55 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:13:56 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:13:56 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:13:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:13:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:13:58 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:13:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StudioAssist/Add to Cart from Detailed Product' successfully
+
+04-02-2025T22:13:58 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1' is clicked on
+
+04-02-2025T22:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1' is clicked on
+
+04-02-2025T22:13:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout"), 5): Scroll to object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' successfully
+
+04-02-2025T22:13:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' successfully
+
+04-02-2025T22:13:59 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' is clicked on
+
+04-02-2025T22:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' is clicked on
+
+04-02-2025T22:13:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information"), 15): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information' is present
+
+04-02-2025T22:13:59 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information' is present
+
+04-02-2025T22:13:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StudioAssist/Checkout Information' successfully
+
+04-02-2025T22:13:59 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName"), "testing"): Text 'testing' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+04-02-2025T22:14:00 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+04-02-2025T22:14:00 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName"), "sha"): Text 'sha' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+04-02-2025T22:14:01 - [MESSAGE][PASSED] - Text 'sha' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+04-02-2025T22:14:01 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode"), "KT1218"): Text 'KT1218' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+04-02-2025T22:14:02 - [MESSAGE][PASSED] - Text 'KT1218' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+04-02-2025T22:14:02 - [TEST_STEP][PASSED] - com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information"): Successfully clicked the element: katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information
+
+04-02-2025T22:14:02 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information' is clicked on
+
+04-02-2025T22:14:02 - [MESSAGE][PASSED] - Successfully clicked the element: katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information
+
+04-02-2025T22:14:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview"), 20): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview' is present
+
+04-02-2025T22:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview' is present
+
+04-02-2025T22:14:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StudioAssist/Filled Checkout Information' successfully
+
+04-02-2025T22:14:03 - [TEST_STEP][PASSED] - com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Finish_checkout_overview"): Successfully clicked the element: Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Finish_checkout_overview
+
+04-02-2025T22:14:03 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Finish_checkout_overview' is clicked on
+
+04-02-2025T22:14:03 - [MESSAGE][PASSED] - Successfully clicked the element: Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Finish_checkout_overview
+
+04-02-2025T22:14:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Complete"), 20): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Complete' is present
+
+04-02-2025T22:14:04 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Complete' is present
+
+04-02-2025T22:14:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:14:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudioAssist/Filled Checkout Information" time="11.314" classname="Test Cases/StudioAssist/Filled Checkout Information" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:14:04 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Filled Checkout Information: Test Cases/StudioAssist/Filled Checkout Information
+
+04-02-2025T22:14:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StudioAssist/Checkout Information"), ["username":Username1, "password":Password2]): Call Test Case 'Test Cases/StudioAssist/Checkout Information' successfully
+
+04-02-2025T22:14:04 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Checkout Information: Test Cases/StudioAssist/Checkout Information
+
+04-02-2025T22:14:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StudioAssist/Add to Cart from Detailed Product"), ["username":Username1, "password":Password2]): Call Test Case 'Test Cases/StudioAssist/Add to Cart from Detailed Product' successfully
+
+04-02-2025T22:14:04 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Add to Cart from Detailed Product: Test Cases/StudioAssist/Add to Cart from Detailed Product
+
+04-02-2025T22:14:04 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:14:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:14:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:14:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:14:05 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:14:07 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:14:07 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:14:08 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:14:08 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:14:08 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+04-02-2025T22:14:09 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+04-02-2025T22:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+04-02-2025T22:14:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:14:10 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+04-02-2025T22:14:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StudioAssist/Add to Cart from Detailed Product' successfully
+
+04-02-2025T22:14:10 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1' is clicked on
+
+04-02-2025T22:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1' is clicked on
+
+04-02-2025T22:14:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout"), 5): Scroll to object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' successfully
+
+04-02-2025T22:14:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' successfully
+
+04-02-2025T22:14:11 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' is clicked on
+
+04-02-2025T22:14:11 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout' is clicked on
+
+04-02-2025T22:14:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information"), 15): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information' is present
+
+04-02-2025T22:14:12 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information' is present
+
+04-02-2025T22:14:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StudioAssist/Checkout Information' successfully
+
+04-02-2025T22:14:12 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName"), "testing"): Text 'testing' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+04-02-2025T22:14:13 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName'
+
+04-02-2025T22:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName"), "sha"): Text 'sha' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+04-02-2025T22:14:13 - [MESSAGE][PASSED] - Text 'sha' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName'
+
+04-02-2025T22:14:13 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode"), "KT1218"): Text 'KT1218' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+04-02-2025T22:14:14 - [MESSAGE][PASSED] - Text 'KT1218' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode'
+
+04-02-2025T22:14:14 - [TEST_STEP][PASSED] - com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information"): Successfully clicked the element: katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information
+
+04-02-2025T22:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information' is clicked on
+
+04-02-2025T22:14:15 - [MESSAGE][PASSED] - Successfully clicked the element: katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information
+
+04-02-2025T22:14:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview"), 20): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview' is present
+
+04-02-2025T22:14:15 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StudioAssist/Login by StudioAssist" time="8.457" classname="Test Cases/StudioAssist/Login by StudioAssist" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:14:15 - [TEST_CASE][PASSED] - Test Cases/StudioAssist/Login by StudioAssist: Test Cases/StudioAssist/Login by StudioAssist
+
+04-02-2025T22:14:15 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:14:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-02-2025T22:14:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:14:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:14:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+04-02-2025T22:14:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:14:22 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:14:23 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:14:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+04-02-2025T22:14:23 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+04-02-2025T22:14:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:14:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-02-2025T22:13:26 - [TEST_SUITE][PASSED] - Studio Assist Test Cases: Test Cases/StudioAssist/Login by StudioAssist]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

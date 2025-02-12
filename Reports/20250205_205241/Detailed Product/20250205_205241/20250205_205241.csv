@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detailed Product,Chrome 132.0.0.0,,,05-02-2025 20:52:50,05-02-2025 20:53:14,"23,627s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Purchase from Detail Product,Chrome 132.0.0.0,,,05-02-2025 20:52:50,05-02-2025 20:53:02,"11,702s",PASSED
+openBrowser(SiteURL),Chrome 132.0.0.0,,,05-02-2025 20:52:50,05-02-2025 20:52:56,"5,595s",PASSED
+"setText(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name""), Username1)",Chrome 132.0.0.0,,,05-02-2025 20:52:56,05-02-2025 20:52:58,"2,104s",PASSED
+"setText(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password""), Password2)",Chrome 132.0.0.0,,,05-02-2025 20:52:58,05-02-2025 20:52:59,"0,711s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,05-02-2025 20:52:59,05-02-2025 20:52:59,"0,468s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), 10)",Chrome 132.0.0.0,,,05-02-2025 20:52:59,05-02-2025 20:53:00,"0,453s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link""))",Chrome 132.0.0.0,,,05-02-2025 20:53:00,05-02-2025 20:53:00,"0,485s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_backpack""))",Chrome 132.0.0.0,,,05-02-2025 20:53:00,05-02-2025 20:53:01,"0,584s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products""))",Chrome 132.0.0.0,,,05-02-2025 20:53:01,05-02-2025 20:53:01,"0,547s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,05-02-2025 20:53:01,05-02-2025 20:53:02,"0,411s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Back to Product - Detail Product,Chrome 132.0.0.0,,,05-02-2025 20:53:02,05-02-2025 20:53:13,"11,641s",PASSED
+openBrowser(SiteURL),Chrome 132.0.0.0,,,05-02-2025 20:53:02,05-02-2025 20:53:09,"6,988s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name""), Username1)",Chrome 132.0.0.0,,,05-02-2025 20:53:09,05-02-2025 20:53:10,"0,729s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password""), Password2)",Chrome 132.0.0.0,,,05-02-2025 20:53:10,05-02-2025 20:53:10,"0,715s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,05-02-2025 20:53:10,05-02-2025 20:53:11,"0,389s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link""))",Chrome 132.0.0.0,,,05-02-2025 20:53:11,05-02-2025 20:53:11,"0,584s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack""))",Chrome 132.0.0.0,,,05-02-2025 20:53:11,05-02-2025 20:53:12,"0,557s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products""))",Chrome 132.0.0.0,,,05-02-2025 20:53:12,05-02-2025 20:53:13,"0,651s",PASSED
+"verifyElementPresent(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link""), 10)",Chrome 132.0.0.0,,,05-02-2025 20:53:13,05-02-2025 20:53:13,"0,507s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,05-02-2025 20:53:13,05-02-2025 20:53:13,"0,287s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Remove the product - Detailed Product,Chrome 132.0.0.0,,,05-02-2025 20:53:13,05-02-2025 20:53:14,"0,058s",PASSED
+return null,Chrome 132.0.0.0,,,05-02-2025 20:53:14,05-02-2025 20:53:14,"0,001s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Click the product - Detail Product,Chrome 132.0.0.0,,,05-02-2025 20:53:14,05-02-2025 20:53:14,"0,011s",PASSED
+return null,Chrome 132.0.0.0,,,05-02-2025 20:53:14,05-02-2025 20:53:14,"0,001s",PASSED

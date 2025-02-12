@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8D402A6D3FD145B74140091542AC3466",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.resetstate.reset_app_state",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

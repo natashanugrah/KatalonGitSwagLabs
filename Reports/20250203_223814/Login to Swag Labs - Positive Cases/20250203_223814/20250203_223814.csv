@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login to Swag Labs - Positive Cases,Chrome 132.0.0.0,,,03-02-2025 22:38:21,03-02-2025 22:38:43,"22,323s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Login with first account - standard_user,Chrome 132.0.0.0,,,03-02-2025 22:38:21,03-02-2025 22:38:32,"10,687s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,03-02-2025 22:38:21,03-02-2025 22:38:24,"3,073s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,03-02-2025 22:38:24,03-02-2025 22:38:28,"3,569s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginFirstAccount(),Chrome 132.0.0.0,,,03-02-2025 22:38:28,03-02-2025 22:38:31,"3,060s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 132.0.0.0,,,03-02-2025 22:38:31,03-02-2025 22:38:31,"0,005s",NOT_RUN
+"setEncryptedText(findTestObject(""Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 132.0.0.0,,,03-02-2025 22:38:31,03-02-2025 22:38:31,"0,005s",NOT_RUN
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,03-02-2025 22:38:31,03-02-2025 22:38:31,"0,004s",NOT_RUN
+"verifyTextPresent(""Products"", false)",Chrome 132.0.0.0,,,03-02-2025 22:38:31,03-02-2025 22:38:31,"0,429s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,03-02-2025 22:38:31,03-02-2025 22:38:32,"0,265s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Login SwagLabs,Chrome 132.0.0.0,,,03-02-2025 22:38:32,03-02-2025 22:38:43,"11,365s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,03-02-2025 22:38:32,03-02-2025 22:38:33,"1,129s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,03-02-2025 22:38:33,03-02-2025 22:38:40,"6,603s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 132.0.0.0,,,03-02-2025 22:38:40,03-02-2025 22:38:42,"2,096s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 132.0.0.0,,,03-02-2025 22:38:42,03-02-2025 22:38:42,"0,349s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,03-02-2025 22:38:42,03-02-2025 22:38:42,"0,344s",PASSED
+"verifyTextPresent(""Products"", false)",Chrome 132.0.0.0,,,03-02-2025 22:38:42,03-02-2025 22:38:43,"0,507s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,03-02-2025 22:38:43,03-02-2025 22:38:43,"0,241s",PASSED

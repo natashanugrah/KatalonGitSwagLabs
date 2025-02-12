@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Positive Cases,Chrome 132.0.0.0,,,04-02-2025 20:20:02,04-02-2025 20:20:30,"27,755s",FAILED
+,,,,,,,
+Test Cases/Positive Cases - Add to Cart - Is Equal to 3 Items,Chrome 132.0.0.0,,,04-02-2025 20:20:15,04-02-2025 20:20:17,"2,128s",FAILED
+"openBrowser("""")",Chrome 132.0.0.0,,,04-02-2025 20:20:15,04-02-2025 20:20:16,"1,481s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,04-02-2025 20:20:16,04-02-2025 20:20:17,"0,485s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), Username1)",Chrome 132.0.0.0,,,04-02-2025 20:20:17,04-02-2025 20:20:17,"0,135s",FAILED
+,,,,,,,
+Test Cases/Positive Cases - Add to Cart,Chrome 132.0.0.0,,,04-02-2025 20:20:23,04-02-2025 20:20:25,"1,672s",FAILED
+"openBrowser("""")",Chrome 132.0.0.0,,,04-02-2025 20:20:23,04-02-2025 20:20:24,"1,039s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,04-02-2025 20:20:24,04-02-2025 20:20:24,"0,478s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), Username1)",Chrome 132.0.0.0,,,04-02-2025 20:20:24,04-02-2025 20:20:25,"0,130s",FAILED
+,,,,,,,
+Test Cases/Positive Cases - Login SwagLabs,Chrome 132.0.0.0,,,04-02-2025 20:20:25,04-02-2025 20:20:30,"5,316s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,04-02-2025 20:20:25,04-02-2025 20:20:26,"1,077s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,04-02-2025 20:20:26,04-02-2025 20:20:26,"0,550s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 132.0.0.0,,,04-02-2025 20:20:26,04-02-2025 20:20:29,"2,202s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 132.0.0.0,,,04-02-2025 20:20:29,04-02-2025 20:20:29,"0,351s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,04-02-2025 20:20:29,04-02-2025 20:20:29,"0,378s",PASSED
+"verifyTextPresent(""Products"", false)",Chrome 132.0.0.0,,,04-02-2025 20:20:29,04-02-2025 20:20:30,"0,505s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,04-02-2025 20:20:30,04-02-2025 20:20:30,"0,169s",PASSED

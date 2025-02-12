@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login by Different Account" time="65.937" tests="5" failures="0" errors="0">
+   <testsuite name="Login by Different Account" tests="5" failures="0" errors="0" time="65.937" skipped="0" timestamp="04-02-2025T22:30:15" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Login by Different Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250204_223008\\Login by Different Account\\20250204_223008"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250204_223008\\Login by Different Account\\20250204_223008\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="a42e5c5d2ddc349dee2c35b07206ecce"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login by Fifth Account - error_user" time="7.449" classname="Test Cases/Login by Fifth Account - error_user" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:30:15 - [TEST_CASE][PASSED] - Test Cases/Login by Fifth Account - error_user: Test Cases/Login by Fifth Account - error_user
+
+04-02-2025T22:30:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2025T22:30:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:30:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:30:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2025T22:30:18 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:30:18 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:30:18 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFifthAccount(): com.test.swaglabs.CustomLogin.WebLoginFifthAccount is PASSED
+
+04-02-2025T22:30:21 - [MESSAGE][PASSED] - Text 'error_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:30:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:30:22 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFifthAccount is PASSED
+
+04-02-2025T22:30:22 - [TEST_STEP][PASSED] - verifyTextPresent("Products", false): Text 'Products' is present on page 
+
+04-02-2025T22:30:22 - [MESSAGE][PASSED] - Text 'Products' is present on page 
+
+04-02-2025T22:30:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:30:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Fourth Account - performance_glitch_user" time="10.526" classname="Test Cases/Login by Fourth Account - performance_glitch_user" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:30:23 - [TEST_CASE][PASSED] - Test Cases/Login by Fourth Account - performance_glitch_user: Test Cases/Login by Fourth Account - performance_glitch_user
+
+04-02-2025T22:30:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2025T22:30:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:30:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:30:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2025T22:30:24 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:30:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:30:24 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFourthAccount(): com.test.swaglabs.CustomLogin.WebLoginFourthAccount is PASSED
+
+04-02-2025T22:30:26 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:30:27 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:30:32 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginFourthAccount is PASSED
+
+04-02-2025T22:30:32 - [TEST_STEP][PASSED] - verifyTextPresent("Add to cart", false): Text 'Add to cart' is present on page 
+
+04-02-2025T22:30:33 - [MESSAGE][PASSED] - Text 'Add to cart' is present on page 
+
+04-02-2025T22:30:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:30:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Second Account - locked_out_user" time="34.907" classname="Test Cases/Login by Second Account - locked_out_user" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:30:33 - [TEST_CASE][PASSED] - Test Cases/Login by Second Account - locked_out_user: Test Cases/Login by Second Account - locked_out_user
+
+04-02-2025T22:30:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2025T22:30:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:30:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2025T22:30:34 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:30:35 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:30:35 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSecondAccount(): com.test.swaglabs.CustomLogin.WebLoginSecondAccount is PASSED
+
+04-02-2025T22:30:37 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:30:37 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:30:38 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSecondAccount is PASSED
+
+04-02-2025T22:30:38 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Sorry, this user has been locked out.", false): Text 'Epic sadface: Sorry, this user has been locked out.' is present on page 
+
+04-02-2025T22:31:08 - [MESSAGE][PASSED] - Text 'Epic sadface: Sorry, this user has been locked out.' is present on page 
+
+04-02-2025T22:31:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:31:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Sixth Account - visual_user" time="5.204" classname="Test Cases/Login by Sixth Account - visual_user" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:31:08 - [TEST_CASE][PASSED] - Test Cases/Login by Sixth Account - visual_user: Test Cases/Login by Sixth Account - visual_user
+
+04-02-2025T22:31:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2025T22:31:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:31:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:31:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2025T22:31:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:31:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:31:10 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSixthAccount(): com.test.swaglabs.CustomLogin.WebLoginSixthAccount is PASSED
+
+04-02-2025T22:31:12 - [MESSAGE][PASSED] - Text 'visual_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:31:12 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:31:13 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginSixthAccount is PASSED
+
+04-02-2025T22:31:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), 10): Object 'Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+04-02-2025T22:31:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+04-02-2025T22:31:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:31:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login by Third Account - problem_user" time="7.616" classname="Test Cases/Login by Third Account - problem_user" status="PASSED">
+         <system-out><![CDATA[04-02-2025T22:31:13 - [TEST_CASE][PASSED] - Test Cases/Login by Third Account - problem_user: Test Cases/Login by Third Account - problem_user
+
+04-02-2025T22:31:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-02-2025T22:31:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-02-2025T22:31:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-02-2025T22:31:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-02-2025T22:31:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:31:19 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+04-02-2025T22:31:19 - [TEST_STEP][PASSED] - com.test.swaglabs.CustomLogin.WebLoginThirdAccount(): com.test.swaglabs.CustomLogin.WebLoginThirdAccount is PASSED
+
+04-02-2025T22:31:20 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+04-02-2025T22:31:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+04-02-2025T22:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+04-02-2025T22:31:20 - [MESSAGE][PASSED] - com.test.swaglabs.CustomLogin.WebLoginThirdAccount is PASSED
+
+04-02-2025T22:31:20 - [TEST_STEP][PASSED] - verifyTextPresent("Add to cart", false): Text 'Add to cart' is present on page 
+
+04-02-2025T22:31:21 - [MESSAGE][PASSED] - Text 'Add to cart' is present on page 
+
+04-02-2025T22:31:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-02-2025T22:31:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-02-2025T22:30:15 - [TEST_SUITE][PASSED] - Login by Different Account: Test Cases/Login by Third Account - problem_user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

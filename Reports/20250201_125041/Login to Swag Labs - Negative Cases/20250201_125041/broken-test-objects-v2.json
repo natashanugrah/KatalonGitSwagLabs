@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Swag Labs/path",
+      "brokenLocator": "[data-test\u003d\"error-button\"]",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "svg.svg-inline--fa.fa-times.fa-w-11 \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/20250201_125041/Login to Swag Labs - Negative Cases/20250201_125041/Object Repository/Page_Swag Labs/path_CSS.png"
+    }
+  ]
+}

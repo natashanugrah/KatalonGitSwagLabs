@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Detailed Product" time="23.627" tests="4" failures="0" errors="0">
+   <testsuite name="Detailed Product" tests="4" failures="0" errors="0" time="23.627" skipped="0" timestamp="05-02-2025T20:52:50" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Detailed Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250205_205241\\Detailed Product\\20250205_205241"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250205_205241\\Detailed Product\\20250205_205241\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="d7717e981af3e0e2375850fefec65378"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive Cases - Purchase from Detail Product" time="11.702" classname="Test Cases/Positive Cases - Purchase from Detail Product" status="PASSED">
+         <system-out><![CDATA[05-02-2025T20:52:50 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Purchase from Detail Product: Test Cases/Positive Cases - Purchase from Detail Product
+
+05-02-2025T20:52:50 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+05-02-2025T20:52:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T20:52:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T20:52:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+05-02-2025T20:52:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+05-02-2025T20:52:58 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+05-02-2025T20:52:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+05-02-2025T20:52:59 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+05-02-2025T20:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+05-02-2025T20:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+05-02-2025T20:52:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+05-02-2025T20:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+05-02-2025T20:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+05-02-2025T20:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+05-02-2025T20:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_backpack")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_backpack' is clicked on
+
+05-02-2025T20:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_backpack' is clicked on
+
+05-02-2025T20:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+05-02-2025T20:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+05-02-2025T20:53:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-02-2025T20:53:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Back to Product - Detail Product" time="11.641" classname="Test Cases/Negative Cases - Back to Product - Detail Product" status="PASSED">
+         <system-out><![CDATA[05-02-2025T20:53:02 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Back to Product - Detail Product: Test Cases/Negative Cases - Back to Product - Detail Product
+
+05-02-2025T20:53:02 - [TEST_STEP][PASSED] - openBrowser(SiteURL): Browser is opened with url: 'https://www.saucedemo.com/'
+
+05-02-2025T20:53:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-02-2025T20:53:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-02-2025T20:53:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+05-02-2025T20:53:09 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+05-02-2025T20:53:10 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name'
+
+05-02-2025T20:53:10 - [TEST_STEP][PASSED] - setText(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password"), Password2): Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+05-02-2025T20:53:10 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password'
+
+05-02-2025T20:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+05-02-2025T20:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+05-02-2025T20:53:11 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+05-02-2025T20:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link' is clicked on
+
+05-02-2025T20:53:11 - [TEST_STEP][PASSED] - click(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+05-02-2025T20:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack' is clicked on
+
+05-02-2025T20:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products")): Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+05-02-2025T20:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products' is clicked on
+
+05-02-2025T20:53:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link"), 10): Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+05-02-2025T20:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+05-02-2025T20:53:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-02-2025T20:53:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Remove the product - Detailed Product" time="0.058" classname="Test Cases/Negative Cases - Remove the product - Detailed Product" status="PASSED">
+         <system-out><![CDATA[05-02-2025T20:53:13 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Remove the product - Detailed Product: Test Cases/Negative Cases - Remove the product - Detailed Product
+
+05-02-2025T20:53:14 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Click the product - Detail Product" time="0.011" classname="Test Cases/Positive Cases - Click the product - Detail Product" status="PASSED">
+         <system-out><![CDATA[05-02-2025T20:53:14 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Click the product - Detail Product: Test Cases/Positive Cases - Click the product - Detail Product
+
+05-02-2025T20:53:14 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-02-2025T20:52:50 - [TEST_SUITE][PASSED] - Detailed Product: Test Cases/Positive Cases - Click the product - Detail Product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

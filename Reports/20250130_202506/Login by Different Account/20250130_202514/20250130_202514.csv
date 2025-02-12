@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login by Different Account,Chrome 132.0.0.0,,,30-01-2025 20:27:05,30-01-2025 20:28:18,"1m - 12,923s",PASSED
+,,,,,,,
+Test Cases/Login by Fifth Account - error_user,Chrome 132.0.0.0,,,30-01-2025 20:27:05,30-01-2025 20:27:17,"11,802s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,30-01-2025 20:27:05,30-01-2025 20:27:08,"2,523s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,30-01-2025 20:27:08,30-01-2025 20:27:13,"5,505s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginFifthAccount(),Chrome 132.0.0.0,,,30-01-2025 20:27:13,30-01-2025 20:27:16,"2,913s",PASSED
+"verifyTextPresent(""Products"", false)",Chrome 132.0.0.0,,,30-01-2025 20:27:16,30-01-2025 20:27:17,"0,436s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,30-01-2025 20:27:17,30-01-2025 20:27:17,"0,220s",PASSED
+,,,,,,,
+Test Cases/Login by Fourth Account - performance_glitch_user,Chrome 132.0.0.0,,,30-01-2025 20:27:17,30-01-2025 20:27:31,"13,932s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,30-01-2025 20:27:17,30-01-2025 20:27:18,"1,528s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,30-01-2025 20:27:18,30-01-2025 20:27:22,"3,459s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginFourthAccount(),Chrome 132.0.0.0,,,30-01-2025 20:27:22,30-01-2025 20:27:30,"8,169s",PASSED
+"verifyTextPresent(""Add to cart"", false)",Chrome 132.0.0.0,,,30-01-2025 20:27:30,30-01-2025 20:27:31,"0,526s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,30-01-2025 20:27:31,30-01-2025 20:27:31,"0,170s",PASSED
+,,,,,,,
+Test Cases/Login by Second Account - locked_out_user,Chrome 132.0.0.0,,,30-01-2025 20:27:31,30-01-2025 20:27:56,"25,014s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,30-01-2025 20:27:31,30-01-2025 20:27:32,"1,125s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,30-01-2025 20:27:32,30-01-2025 20:27:35,"3,474s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginSecondAccount(),Chrome 132.0.0.0,,,30-01-2025 20:27:35,30-01-2025 20:27:40,"4,815s",PASSED
+"verifyTextPresent(""Epic sadface: Sorry, this user has been locked out."", false)",Chrome 132.0.0.0,,,30-01-2025 20:27:40,30-01-2025 20:27:56,"15,296s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,30-01-2025 20:27:56,30-01-2025 20:27:56,"0,231s",PASSED
+,,,,,,,
+Test Cases/Login by Sixth Account - visual_user,Chrome 132.0.0.0,,,30-01-2025 20:27:56,30-01-2025 20:28:07,"11,061s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,30-01-2025 20:27:56,30-01-2025 20:27:57,"1,249s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,30-01-2025 20:27:57,30-01-2025 20:28:05,"7,495s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginSixthAccount(),Chrome 132.0.0.0,,,30-01-2025 20:28:05,30-01-2025 20:28:06,"1,753s",PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), 10)",Chrome 132.0.0.0,,,30-01-2025 20:28:06,30-01-2025 20:28:07,"0,308s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,30-01-2025 20:28:07,30-01-2025 20:28:07,"0,171s",PASSED
+,,,,,,,
+Test Cases/Login by Third Account - problem_user,Chrome 132.0.0.0,,,30-01-2025 20:28:07,30-01-2025 20:28:18,"10,931s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,30-01-2025 20:28:07,30-01-2025 20:28:08,"1,168s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,30-01-2025 20:28:08,30-01-2025 20:28:16,"7,530s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginThirdAccount(),Chrome 132.0.0.0,,,30-01-2025 20:28:16,30-01-2025 20:28:17,"1,456s",PASSED
+"verifyTextPresent(""Add to cart"", false)",Chrome 132.0.0.0,,,30-01-2025 20:28:17,30-01-2025 20:28:18,"0,527s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,30-01-2025 20:28:18,30-01-2025 20:28:18,"0,188s",PASSED

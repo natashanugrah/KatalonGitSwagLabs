@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Negative Cases - Add to Cart,,,,04-02-2025 20:23:36,04-02-2025 20:23:37,"0,473s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Remove All Item from Cart,,,,04-02-2025 20:23:36,04-02-2025 20:23:37,"0,216s",PASSED
+return null,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,003s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Remove Item from Cart,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,026s",PASSED
+return null,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Cancel the checkout - Cart is null,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,019s",PASSED
+return null,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,001s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Checkout from Cart - Cart is null,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,012s",PASSED
+return null,,,,04-02-2025 20:23:37,04-02-2025 20:23:37,"0,001s",PASSED

@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+
+* - Find and call this test case: Test Cases/StudioAssist/Login by StudioAssist
+
+*/
+// This line is used to call another test case in Katalon Studio
+WebUI.callTestCase(findTestCase('Test Cases/StudioAssist/Login by StudioAssist'), [:])
+
+WebUI.click(findTestObject('Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/button_Open Menu_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/Page_Swag Labs/a_Logout'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'), 0)
+
+WebUI.waitForAlert(5)
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login to Swag Labs - Negative Cases" time="194.41" tests="3" failures="0" errors="0">
+   <testsuite name="Login to Swag Labs - Negative Cases" tests="3" failures="0" errors="0" time="194.41" skipped="0" timestamp="01-02-2025T12:50:48" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Login to Swag Labs - Negative Cases">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250201_125041\\Login to Swag Labs - Negative Cases\\20250201_125041"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250201_125041\\Login to Swag Labs - Negative Cases\\20250201_125041\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;se:cdpEnabled&quot;: false,&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;132.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;kt:requestId&quot;: &quot;ee448751-4f49-4412-b2e2-3462450546b9&quot;,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;132.0.6834.6 (927817eddd37beaece8f59ae3e4c932602252b04-refs/branch-heads/6834@{#17})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir2436_1935836912&quot;&#xa;  },&#xa;  &quot;kt:rid&quot;: &quot;ee448751-4f49-4412-b2e2-3462450546b9&quot;,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;se:bidiEnabled&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;e850b100-8b14-41d8-84aa-49b202bbc6a8&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;ee448751-4f49-4412-b2e2-3462450546b9&quot;&#xa;  },&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;e850b100-8b14-41d8-84aa-49b202bbc6a8&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;ee448751-4f49-4412-b2e2-3462450546b9&quot;,&#xa;    &quot;metadata&quot;: {&#xa;      &quot;usingTunnel&quot;: false,&#xa;      &quot;accountUuid&quot;: &quot;fda32340-531c-49aa-a0b7-40d478ba5457&quot;,&#xa;      &quot;organizationId&quot;: &quot;1906073&quot;&#xa;    },&#xa;    &quot;organizationId&quot;: &quot;1906073&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;userId&quot;: 1648280,&#xa;    &quot;username&quot;: &quot;innocent.beaver.duja@instantletter.net&quot;,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="39f698c116dc2bc33e0e16c76305ab93"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Negative Cases - Failed Credential to Login SwagLabs" time="62.17" classname="Test Cases/Negative Cases - Failed Credential to Login SwagLabs" status="PASSED">
+         <system-out><![CDATA[01-02-2025T12:50:48 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Failed Credential to Login SwagLabs: Test Cases/Negative Cases - Failed Credential to Login SwagLabs
+
+01-02-2025T12:50:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T12:50:49 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+01-02-2025T12:50:49 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+01-02-2025T12:50:49 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+01-02-2025T12:50:49 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=false}']
+
+01-02-2025T12:50:49 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+01-02-2025T12:50:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T12:51:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T12:51:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T12:51:12 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T12:51:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "nitsha"): Text 'nitsha' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T12:51:15 - [MESSAGE][PASSED] - Text 'nitsha' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T12:51:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T12:51:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T12:51:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T12:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T12:51:19 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+01-02-2025T12:51:50 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+01-02-2025T12:51:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T12:51:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled" time="66.931" classname="Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled" status="PASSED">
+         <system-out><![CDATA[01-02-2025T12:51:51 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled: Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled
+
+01-02-2025T12:51:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T12:51:51 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+01-02-2025T12:51:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+01-02-2025T12:51:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+01-02-2025T12:51:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=false}']
+
+01-02-2025T12:51:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+01-02-2025T12:51:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T12:52:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T12:52:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T12:52:13 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T12:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T12:52:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+01-02-2025T12:52:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T12:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T12:52:18 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Password is required", false): Text 'Epic sadface: Password is required' is present on page 
+
+01-02-2025T12:52:19 - [MESSAGE][PASSED] - Text 'Epic sadface: Password is required' is present on page 
+
+01-02-2025T12:52:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/path")): Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+01-02-2025T12:52:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Swag Labs/path'. Try using Self-healing.
+
+01-02-2025T12:52:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2025T12:52:53 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+01-02-2025T12:52:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("login_button_container")/div[@class="login-box"]/form[1]/div[@class="error-message-container error"]/h3[1]/button[@class="error-button"]/svg[@class="svg-inline--fa fa-times fa-w-11"]/path[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+01-02-2025T12:52:56 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ACER/git/KatalonGitSwagLabsNew/Reports/Self-healing/Object Repository/Page_Swag Labs/path_CSS.png
+
+01-02-2025T12:52:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Swag Labs/path' was broken. Propose an alternative one: 'svg.svg-inline--fa.fa-times.fa-w-11 > path'.
+
+01-02-2025T12:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+01-02-2025T12:52:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T12:52:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled" time="65.137" classname="Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled" status="PASSED">
+         <system-out><![CDATA[01-02-2025T12:52:58 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled: Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled
+
+01-02-2025T12:52:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-02-2025T12:52:58 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+01-02-2025T12:52:58 - [MESSAGE][INFO] - User set preference: ['browserVersion', '132']
+
+01-02-2025T12:52:58 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+01-02-2025T12:52:58 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1906073, usingTunnel=false}']
+
+01-02-2025T12:52:58 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+01-02-2025T12:52:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-02-2025T12:53:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-02-2025T12:53:19 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T12:53:20 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-02-2025T12:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T12:53:23 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+01-02-2025T12:53:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T12:53:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+01-02-2025T12:53:25 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username is required", false): Text 'Epic sadface: Username is required' is present on page 
+
+01-02-2025T12:53:29 - [MESSAGE][PASSED] - Text 'Epic sadface: Username is required' is present on page 
+
+01-02-2025T12:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/path")): Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+01-02-2025T12:54:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Swag Labs/path'. Try using Self-healing.
+
+01-02-2025T12:54:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Swag Labs/path' was broken. Propose an alternative one: 'svg.svg-inline--fa.fa-times.fa-w-11 > path'.
+
+01-02-2025T12:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+01-02-2025T12:54:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+01-02-2025T12:54:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-02-2025T12:50:48 - [TEST_SUITE][PASSED] - Login to Swag Labs - Negative Cases: Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

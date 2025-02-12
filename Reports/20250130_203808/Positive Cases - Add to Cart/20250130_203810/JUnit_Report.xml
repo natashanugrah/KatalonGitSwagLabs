@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Positive Cases - Add to Cart" time="44.313" tests="7" failures="0" errors="0">
+   <testsuite name="Positive Cases - Add to Cart" tests="7" failures="0" errors="0" time="44.313" skipped="0" timestamp="30-01-2025T20:38:22" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Positive Cases - Add to Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250130_203808\\Positive Cases - Add to Cart\\20250130_203810"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250130_203808\\Positive Cases - Add to Cart\\20250130_203810\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="5a0eb09a4673f44e0b9f36e3201c1299"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Positive Cases - Add to Cart - Is Equal to 3 Items" time="21.51" classname="Test Cases/Positive Cases - Add to Cart - Is Equal to 3 Items" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:23 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart - Is Equal to 3 Items: Test Cases/Positive Cases - Add to Cart - Is Equal to 3 Items
+
+30-01-2025T20:38:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T20:38:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T20:38:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T20:38:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T20:38:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T20:38:30 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T20:38:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T20:38:32 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T20:38:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), Password): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T20:38:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T20:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T20:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T20:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button' is clicked on
+
+30-01-2025T20:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button' is clicked on
+
+30-01-2025T20:38:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-01-2025T20:38:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-01-2025T20:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_add_to_cart_boltshirt-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_boltshirt-button' is clicked on
+
+30-01-2025T20:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_boltshirt-button' is clicked on
+
+30-01-2025T20:38:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-01-2025T20:38:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-01-2025T20:38:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_add_to_cart_bikelight-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_bikelight-button' is clicked on
+
+30-01-2025T20:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_bikelight-button' is clicked on
+
+30-01-2025T20:38:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-01-2025T20:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-01-2025T20:38:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Swag Labs/input_Swag Labs_mainhome_header"), 2): Scroll to object 'Object Repository/Page_Swag Labs/input_Swag Labs_mainhome_header' successfully
+
+30-01-2025T20:38:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Swag Labs/input_Swag Labs_mainhome_header' successfully
+
+30-01-2025T20:38:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Swag Labs/input_Swag Labs_shopping_cart_badge")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_shopping_cart_badge' is visible
+
+30-01-2025T20:38:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_shopping_cart_badge' is visible
+
+30-01-2025T20:38:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+30-01-2025T20:38:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+30-01-2025T20:38:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T20:38:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Add to Cart by Sorting - Name (A to Z)" time="10.189" classname="Test Cases/Positive Cases - Add to Cart by Sorting - Name (A to Z)" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:44 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart by Sorting - Name (A to Z): Test Cases/Positive Cases - Add to Cart by Sorting - Name (A to Z)
+
+30-01-2025T20:38:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T20:38:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T20:38:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T20:38:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T20:38:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T20:38:49 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T20:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T20:38:51 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T20:38:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T20:38:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T20:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T20:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T20:38:52 - [TEST_STEP][PASSED] - customKeywordCart.MyKeywords.AddToCartAtoZ(): customKeywordCart.MyKeywords.AddToCartAtoZ is PASSED
+
+30-01-2025T20:38:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-01-2025T20:38:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is present
+
+30-01-2025T20:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)' is clicked on
+
+30-01-2025T20:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button' is clicked on
+
+30-01-2025T20:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_bikelight-button' is clicked on
+
+30-01-2025T20:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_boltshirt-button' is clicked on
+
+30-01-2025T20:38:54 - [MESSAGE][PASSED] - customKeywordCart.MyKeywords.AddToCartAtoZ is PASSED
+
+30-01-2025T20:38:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T20:38:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Add to Cart by Sorting - Name (High to Low)" time="0.032" classname="Test Cases/Positive Cases - Add to Cart by Sorting - Name (High to Low)" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:54 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart by Sorting - Name (High to Low): Test Cases/Positive Cases - Add to Cart by Sorting - Name (High to Low)
+
+30-01-2025T20:38:54 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Add to Cart by Sorting - Name (Z to A)" time="0.006" classname="Test Cases/Positive Cases - Add to Cart by Sorting - Name (Z to A)" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:54 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart by Sorting - Name (Z to A): Test Cases/Positive Cases - Add to Cart by Sorting - Name (Z to A)
+
+30-01-2025T20:38:54 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Add to Cart by Sorting - Price (Low to High)" time="0.008" classname="Test Cases/Positive Cases - Add to Cart by Sorting - Price (Low to High)" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:54 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart by Sorting - Price (Low to High): Test Cases/Positive Cases - Add to Cart by Sorting - Price (Low to High)
+
+30-01-2025T20:38:54 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Add to Cart from Detailed Product page" time="0.004" classname="Test Cases/Positive Cases - Add to Cart from Detailed Product page" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:54 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart from Detailed Product page: Test Cases/Positive Cases - Add to Cart from Detailed Product page
+
+30-01-2025T20:38:54 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Positive Cases - Add to Cart" time="12.313" classname="Test Cases/Positive Cases - Add to Cart" status="PASSED">
+         <system-out><![CDATA[30-01-2025T20:38:54 - [TEST_CASE][PASSED] - Test Cases/Positive Cases - Add to Cart: Test Cases/Positive Cases - Add to Cart
+
+30-01-2025T20:38:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T20:38:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T20:38:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T20:38:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T20:38:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T20:38:59 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T20:38:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), Username1): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T20:39:01 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T20:39:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/input_Swag Labs_password"), Password): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T20:39:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T20:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T20:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T20:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button' is clicked on
+
+30-01-2025T20:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_add_to_cart_backpack-button' is clicked on
+
+30-01-2025T20:39:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Swag Labs/input_Swag Labs_shopping_cart_badge")): Object 'Object Repository/Page_Swag Labs/input_Swag Labs_shopping_cart_badge' is visible
+
+30-01-2025T20:39:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/input_Swag Labs_shopping_cart_badge' is visible
+
+30-01-2025T20:39:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-01-2025T20:39:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-01-2025T20:39:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T20:39:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2025T20:38:22 - [TEST_SUITE][PASSED] - Positive Cases - Add to Cart: Test Cases/Positive Cases - Add to Cart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

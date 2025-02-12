@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Negative Cases - Add to Cart" time="0.473" tests="4" failures="0" errors="0">
+   <testsuite name="Negative Cases - Add to Cart" tests="4" failures="0" errors="0" time="0.473" skipped="0" timestamp="04-02-2025T20:23:36" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Negative Cases - Add to Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250204_202330\\Negative Cases - Add to Cart\\20250204_202330"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250204_202330\\Negative Cases - Add to Cart\\20250204_202330\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.7.4.223"/>
+      </properties>
+      <testcase name="Test Cases/Negative Cases - Remove All Item from Cart" time="0.216" classname="Test Cases/Negative Cases - Remove All Item from Cart" status="PASSED">
+         <system-out><![CDATA[04-02-2025T20:23:36 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Remove All Item from Cart: Test Cases/Negative Cases - Remove All Item from Cart
+
+04-02-2025T20:23:37 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Remove Item from Cart" time="0.026" classname="Test Cases/Negative Cases - Remove Item from Cart" status="PASSED">
+         <system-out><![CDATA[04-02-2025T20:23:37 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Remove Item from Cart: Test Cases/Negative Cases - Remove Item from Cart
+
+04-02-2025T20:23:37 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Cancel the checkout - Cart is null" time="0.019" classname="Test Cases/Negative Cases - Cancel the checkout - Cart is null" status="PASSED">
+         <system-out><![CDATA[04-02-2025T20:23:37 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Cancel the checkout - Cart is null: Test Cases/Negative Cases - Cancel the checkout - Cart is null
+
+04-02-2025T20:23:37 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Checkout from Cart - Cart is null" time="0.012" classname="Test Cases/Negative Cases - Checkout from Cart - Cart is null" status="PASSED">
+         <system-out><![CDATA[04-02-2025T20:23:37 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Checkout from Cart - Cart is null: Test Cases/Negative Cases - Checkout from Cart - Cart is null
+
+04-02-2025T20:23:37 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-02-2025T20:23:36 - [TEST_SUITE][PASSED] - Negative Cases - Add to Cart: Test Cases/Negative Cases - Checkout from Cart - Cart is null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

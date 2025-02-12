@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "BCCDB743DCD1445C4FA5FEB6E4E4EE11",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.sorting.Sorting",
+      "keywordMethods": [
+        {
+          "name": "clickStateAtoZ",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "clickPriceHighToLow",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

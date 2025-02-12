@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Test Cases/StudioAssist/Checkout Information'),
+	[('username') : GlobalVariable.Username1, ('password') : GlobalVariable.Password2])
+
+WebUI.setText(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName'), 'testing')
+
+WebUI.setText(findTestObject('katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode'), 'KT1218A')
+
+CustomKeywords.'com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement'('katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information')
+
+WebUI.closeBrowser()

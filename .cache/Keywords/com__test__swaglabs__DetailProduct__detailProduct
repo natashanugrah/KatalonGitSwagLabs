@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5B4913254DAC80B5F2603F5B4F440A0E",
+  "keywordClasses": [
+    {
+      "name": "com.test.swaglabs.DetailProduct.detailProduct",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login to Swag Labs - Positive Cases,TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:56:32,31-01-2025 21:57:39,"1m - 7,211s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Login with first account - standard_user,TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:56:32,31-01-2025 21:57:07,"34,803s",PASSED
+"openBrowser("""")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:56:32,31-01-2025 21:56:52,"19,443s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:56:52,31-01-2025 21:56:55,"2,938s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginFirstAccount(),TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:56:55,31-01-2025 21:57:04,"9,485s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:04,31-01-2025 21:57:04,"0,006s",NOT_RUN
+"setEncryptedText(findTestObject(""Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:04,31-01-2025 21:57:04,"0,005s",NOT_RUN
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:04,31-01-2025 21:57:04,"0,009s",NOT_RUN
+"verifyTextPresent(""Products"", false)",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:04,31-01-2025 21:57:06,"1,456s",PASSED
+closeBrowser(),TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:06,31-01-2025 21:57:07,"1,106s",PASSED
+,,,,,,,
+Test Cases/Positive Cases - Login SwagLabs,TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:07,31-01-2025 21:57:39,"32,212s",PASSED
+"openBrowser("""")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:07,31-01-2025 21:57:24,"17,440s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:24,31-01-2025 21:57:27,"2,508s",PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:27,31-01-2025 21:57:33,"6,457s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""qcu24s4901FyWDTwXGr6XA=="")",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:33,31-01-2025 21:57:35,"1,783s",PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:35,31-01-2025 21:57:37,"1,426s",PASSED
+"verifyTextPresent(""Products"", false)",TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:37,31-01-2025 21:57:38,"1,383s",PASSED
+closeBrowser(),TestCloud - Linux - Chrome 130.0.0.0,,,31-01-2025 21:57:38,31-01-2025 21:57:39,"1,114s",PASSED

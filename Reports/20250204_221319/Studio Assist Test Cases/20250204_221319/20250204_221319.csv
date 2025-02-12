@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Studio Assist Test Cases,Chrome 132.0.0.0,,,04-02-2025 22:13:26,04-02-2025 22:14:24,"57,387s",PASSED
+,,,,,,,
+Test Cases/StudioAssist/Add to Cart from Detailed Product,Chrome 132.0.0.0,,,04-02-2025 22:13:26,04-02-2025 22:13:35,"8,639s",PASSED
+openBrowser(SiteURL),Chrome 132.0.0.0,,,04-02-2025 22:13:27,04-02-2025 22:13:30,"3,088s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name""), Username1)",Chrome 132.0.0.0,,,04-02-2025 22:13:30,04-02-2025 22:13:32,"2,033s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password""), Password2)",Chrome 132.0.0.0,,,04-02-2025 22:13:32,04-02-2025 22:13:32,"0,573s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,04-02-2025 22:13:32,04-02-2025 22:13:33,"0,398s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Name (A to Z)_item_4_img_link""))",Chrome 132.0.0.0,,,04-02-2025 22:13:33,04-02-2025 22:13:33,"0,535s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Add to cart_detailProduct_backpack""))",Chrome 132.0.0.0,,,04-02-2025 22:13:33,04-02-2025 22:13:34,"0,547s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Back to products""))",Chrome 132.0.0.0,,,04-02-2025 22:13:34,04-02-2025 22:13:35,"0,534s",PASSED
+"verifyElementPresent(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/a_Swag Labs_shopping_cart_link""), 10)",Chrome 132.0.0.0,,,04-02-2025 22:13:35,04-02-2025 22:13:35,"0,519s",PASSED
+,,,,,,,
+Test Cases/StudioAssist/Checkout Information,Chrome 132.0.0.0,,,04-02-2025 22:13:35,04-02-2025 22:13:47,"11,625s",PASSED
+"callTestCase(findTestCase(""Test Cases/StudioAssist/Add to Cart from Detailed Product""), [""username"":Username1, ""password"":Password2])",Chrome 132.0.0.0,,,04-02-2025 22:13:35,04-02-2025 22:13:45,"9,915s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/Page_Swag Labs/a_1""))",Chrome 132.0.0.0,,,04-02-2025 22:13:45,04-02-2025 22:13:45,"0,296s",PASSED
+"scrollToElement(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout""), 5)",Chrome 132.0.0.0,,,04-02-2025 22:13:45,04-02-2025 22:13:46,"0,517s",PASSED
+"click(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Checkout""))",Chrome 132.0.0.0,,,04-02-2025 22:13:46,04-02-2025 22:13:46,"0,351s",PASSED
+"verifyElementPresent(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Your Information""), 15)",Chrome 132.0.0.0,,,04-02-2025 22:13:46,04-02-2025 22:13:47,"0,468s",PASSED
+,,,,,,,
+Test Cases/StudioAssist/Create the purchase,Chrome 132.0.0.0,,,04-02-2025 22:13:47,04-02-2025 22:14:04,"17,158s",PASSED
+"callTestCase(findTestCase(""Test Cases/StudioAssist/Filled Checkout Information""), [""username"":Username1, ""password"":Password2])",Chrome 132.0.0.0,,,04-02-2025 22:13:47,04-02-2025 22:14:03,"16,007s",PASSED
+"com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/button_Finish_checkout_overview"")",Chrome 132.0.0.0,,,04-02-2025 22:14:03,04-02-2025 22:14:03,"0,328s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Complete""), 20)",Chrome 132.0.0.0,,,04-02-2025 22:14:03,04-02-2025 22:14:04,"0,479s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,04-02-2025 22:14:04,04-02-2025 22:14:04,"0,236s",PASSED
+,,,,,,,
+Test Cases/StudioAssist/Filled Checkout Information,Chrome 132.0.0.0,,,04-02-2025 22:14:04,04-02-2025 22:14:15,"11,314s",PASSED
+"callTestCase(findTestCase(""Test Cases/StudioAssist/Checkout Information""), [""username"":Username1, ""password"":Password2])",Chrome 132.0.0.0,,,04-02-2025 22:14:04,04-02-2025 22:14:12,"8,115s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_firstName""), ""testing"")",Chrome 132.0.0.0,,,04-02-2025 22:14:12,04-02-2025 22:14:13,"0,580s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_lastName""), ""sha"")",Chrome 132.0.0.0,,,04-02-2025 22:14:13,04-02-2025 22:14:13,"0,804s",PASSED
+"setText(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""KT1218"")",Chrome 132.0.0.0,,,04-02-2025 22:14:13,04-02-2025 22:14:14,"0,802s",PASSED
+"com.test.swaglabs.studioAssist.StudioAssistKeyword.ClickElement(""katalon_asisst_ai_swagLabs/Page_Swag Labs/input_continue_checkout_information"")",Chrome 132.0.0.0,,,04-02-2025 22:14:14,04-02-2025 22:14:15,"0,526s",PASSED
+"verifyElementPresent(findTestObject(""katalon_asisst_ai_swagLabs/Page_Swag Labs/div_Checkout Overview""), 20)",Chrome 132.0.0.0,,,04-02-2025 22:14:15,04-02-2025 22:14:15,"0,477s",PASSED
+,,,,,,,
+Test Cases/StudioAssist/Login by StudioAssist,Chrome 132.0.0.0,,,04-02-2025 22:14:15,04-02-2025 22:14:24,"8,457s",PASSED
+openBrowser(SiteURL),Chrome 132.0.0.0,,,04-02-2025 22:14:15,04-02-2025 22:14:20,"4,641s",PASSED
+"setText(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_user-name""), Username1)",Chrome 132.0.0.0,,,04-02-2025 22:14:20,04-02-2025 22:14:22,"2,083s",PASSED
+"setText(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_password""), Password2)",Chrome 132.0.0.0,,,04-02-2025 22:14:22,04-02-2025 22:14:23,"0,593s",PASSED
+"click(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,04-02-2025 22:14:23,04-02-2025 22:14:23,"0,355s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/katalon_asisst_ai_swagLabs/Page_Swag Labs/div_ProductsName (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), 10)",Chrome 132.0.0.0,,,04-02-2025 22:14:23,04-02-2025 22:14:23,"0,476s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,04-02-2025 22:14:23,04-02-2025 22:14:24,"0,259s",PASSED

@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login by Different Account,TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:30:50,31-01-2025 21:38:07,"7m - 16,300s",PASSED
+,,,,,,,
+Test Cases/Login by Fifth Account - error_user,TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:30:51,31-01-2025 21:31:28,"37,728s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:30:51,31-01-2025 21:31:21,"29,477s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:31:21,31-01-2025 21:31:21,"0,728s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginFifthAccount(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:31:21,31-01-2025 21:31:26,"4,903s",PASSED
+"verifyTextPresent(""Products"", false)",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:31:26,31-01-2025 21:31:27,"1,106s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:31:27,31-01-2025 21:31:28,"1,004s",PASSED
+,,,,,,,
+Test Cases/Login by Fourth Account - performance_glitch_user,TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:32:33,31-01-2025 21:33:15,"41,816s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:32:33,31-01-2025 21:33:01,"27,463s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:33:01,31-01-2025 21:33:01,"0,819s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginFourthAccount(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:33:01,31-01-2025 21:33:13,"11,471s",PASSED
+"verifyTextPresent(""Add to cart"", false)",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:33:13,31-01-2025 21:33:14,"1,084s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:33:14,31-01-2025 21:33:15,"0,940s",PASSED
+,,,,,,,
+Test Cases/Login by Second Account - locked_out_user,TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:34:52,31-01-2025 21:35:27,"34,997s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:34:52,31-01-2025 21:35:19,"26,473s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:35:19,31-01-2025 21:35:19,"0,660s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginSecondAccount(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:35:19,31-01-2025 21:35:25,"5,915s",PASSED
+"verifyTextPresent(""Epic sadface: Sorry, this user has been locked out."", false)",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:35:25,31-01-2025 21:35:26,"0,919s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:35:26,31-01-2025 21:35:27,"1,011s",PASSED
+,,,,,,,
+Test Cases/Login by Sixth Account - visual_user,TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:36:58,31-01-2025 21:37:35,"36,695s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:36:58,31-01-2025 21:37:27,"28,744s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:27,31-01-2025 21:37:28,"0,656s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginSixthAccount(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:28,31-01-2025 21:37:33,"5,748s",PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/span_Name (A to Z)Name (A to Z)Name (Z to A)Price (low to high)Price (high to low)""), 10)",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:33,31-01-2025 21:37:34,"0,649s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:34,31-01-2025 21:37:35,"0,880s",PASSED
+,,,,,,,
+Test Cases/Login by Third Account - problem_user,TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:35,31-01-2025 21:38:07,"31,779s",PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:35,31-01-2025 21:37:59,"24,373s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:37:59,31-01-2025 21:38:00,"0,720s",PASSED
+com.test.swaglabs.CustomLogin.WebLoginThirdAccount(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:38:00,31-01-2025 21:38:05,"4,690s",PASSED
+"verifyTextPresent(""Add to cart"", false)",TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:38:05,31-01-2025 21:38:06,"1,050s",PASSED
+closeBrowser(),TestCloud - Windows - Chrome 133.0.0.0,,,31-01-2025 21:38:06,31-01-2025 21:38:07,"0,860s",PASSED

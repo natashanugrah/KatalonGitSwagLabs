@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login to Swag Labs - Negative Cases" time="58.141" tests="3" failures="0" errors="0">
+   <testsuite name="Login to Swag Labs - Negative Cases" tests="3" failures="0" errors="0" time="58.141" skipped="0" timestamp="30-01-2025T14:49:47" hostname="ACER - LAPTOP-5GQHVTHK" id="Test Suites/Login to Swag Labs - Negative Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250130_144936\\Login to Swag Labs - Negative Cases\\20250130_144937"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\KatalonGitSwagLabsNew\\Reports\\20250130_144936\\Login to Swag Labs - Negative Cases\\20250130_144937\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-5GQHVTHK"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="838fccc9abe32c29260a09c397e05f01"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Negative Cases - Failed Credential to Login SwagLabs" time="38.656" classname="Test Cases/Negative Cases - Failed Credential to Login SwagLabs" status="PASSED">
+         <system-out><![CDATA[30-01-2025T14:49:47 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Failed Credential to Login SwagLabs: Test Cases/Negative Cases - Failed Credential to Login SwagLabs
+
+30-01-2025T14:49:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T14:49:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T14:49:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T14:49:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T14:49:52 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:49:53 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:49:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "nitsha"): Text 'nitsha' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:49:55 - [MESSAGE][PASSED] - Text 'nitsha' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:49:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:49:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:49:56 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username and password do not match any user in this service", false): Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+30-01-2025T14:50:26 - [MESSAGE][PASSED] - Text 'Epic sadface: Username and password do not match any user in this service' is present on page 
+
+30-01-2025T14:50:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T14:50:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled" time="8.121" classname="Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled" status="PASSED">
+         <system-out><![CDATA[30-01-2025T14:50:26 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled: Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled
+
+30-01-2025T14:50:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T14:50:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T14:50:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T14:50:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T14:50:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:50:28 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:50:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:50:31 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+30-01-2025T14:50:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:50:31 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Password is required", false): Text 'Epic sadface: Password is required' is present on page 
+
+30-01-2025T14:50:31 - [MESSAGE][PASSED] - Text 'Epic sadface: Password is required' is present on page 
+
+30-01-2025T14:50:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/path")): Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+30-01-2025T14:50:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Swag Labs/path'. Try using Self-healing.
+
+30-01-2025T14:50:34 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+30-01-2025T14:50:34 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ACER/git/KatalonGitSwagLabsNew/Reports/Self-healing/Object Repository/Page_Swag Labs/path_SMART_LOCATOR.png
+
+30-01-2025T14:50:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Swag Labs/path' was broken. Propose an alternative one: '[data-test="error-button"]'.
+
+30-01-2025T14:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+30-01-2025T14:50:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T14:50:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled" time="11.071" classname="Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled" status="PASSED">
+         <system-out><![CDATA[30-01-2025T14:50:34 - [TEST_CASE][PASSED] - Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled: Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled
+
+30-01-2025T14:50:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2025T14:50:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2025T14:50:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2025T14:50:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2025T14:50:36 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:50:37 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+30-01-2025T14:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:50:42 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+30-01-2025T14:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+30-01-2025T14:50:42 - [TEST_STEP][PASSED] - verifyTextPresent("Epic sadface: Username is required", false): Text 'Epic sadface: Username is required' is present on page 
+
+30-01-2025T14:50:42 - [MESSAGE][PASSED] - Text 'Epic sadface: Username is required' is present on page 
+
+30-01-2025T14:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/path")): Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+30-01-2025T14:50:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Swag Labs/path'. Try using Self-healing.
+
+30-01-2025T14:50:45 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+30-01-2025T14:50:45 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/ACER/git/KatalonGitSwagLabsNew/Reports/Self-healing/Object Repository/Page_Swag Labs/path_SMART_LOCATOR.png
+
+30-01-2025T14:50:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Swag Labs/path' was broken. Propose an alternative one: '[data-test="error-button"]'.
+
+30-01-2025T14:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/path' is clicked on
+
+30-01-2025T14:50:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2025T14:50:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2025T14:49:47 - [TEST_SUITE][PASSED] - Login to Swag Labs - Negative Cases: Test Cases/Negative Cases - Failed Credential to Login and Close the prompt message - Username is not filled]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login to Swag Labs - Negative Cases,Chrome 132.0.0.0,,,03-02-2025 11:51:30,03-02-2025 11:51:40,"10,045s",PASSED
+,,,,,,,
+Test Cases/Negative Cases - Close the prompt message if user want to login - Password not filled,Chrome 132.0.0.0,,,03-02-2025 11:51:30,03-02-2025 11:51:40,"9,716s",PASSED
+"openBrowser("""")",Chrome 132.0.0.0,,,03-02-2025 11:51:31,03-02-2025 11:51:35,"4,495s",PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 132.0.0.0,,,03-02-2025 11:51:35,03-02-2025 11:51:36,"0,800s",PASSED
+"setText(findTestObject(""Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 132.0.0.0,,,03-02-2025 11:51:36,03-02-2025 11:51:38,"2,384s",PASSED
+"click(findTestObject(""Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 132.0.0.0,,,03-02-2025 11:51:38,03-02-2025 11:51:39,"0,389s",PASSED
+"verifyTextPresent(""Epic sadface: Password is required"", false)",Chrome 132.0.0.0,,,03-02-2025 11:51:39,03-02-2025 11:51:39,"0,431s",PASSED
+"click(findTestObject(""Page_Swag Labs/path""))",Chrome 132.0.0.0,,,03-02-2025 11:51:39,03-02-2025 11:51:39,"0,379s",PASSED
+closeBrowser(),Chrome 132.0.0.0,,,03-02-2025 11:51:39,03-02-2025 11:51:40,"0,365s",PASSED
